@@ -1,0 +1,11 @@
+runtime: php7
+
+default_expiration: '7d'
+
+handlers:
+  - url: /.*
+    static_dir: dist/
+    secure: always
+    redirect_http_response_code: 301
+  - url: /.*
+    script: auto
