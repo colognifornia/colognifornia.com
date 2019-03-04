@@ -1,4 +1,4 @@
-runtime: php7
+runtime: php72
 
 default_expiration: '7d'
 
