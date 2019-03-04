@@ -8,9 +8,21 @@ handlers:
     upload: dist/index.html
     secure: always
     redirect_http_response_code: 301
+    http_headers:
+      Strict-Transport-Security: max-age=31536000; includeSubDomains
+      X-Frame-Options: SAMEORIGIN
+      X-XSS-Protection: 1; mode=block
+      X-Content-Type-Options: nosniff
+      Referrer-Policy: no-referrer-when-downgrade
 
   - url: /(.*)
     static_files: dist/\1
     upload: dist/(.*)
     secure: always
     redirect_http_response_code: 301
+    http_headers:
+      Strict-Transport-Security: max-age=31536000; includeSubDomains
+      X-Frame-Options: SAMEORIGIN
+      X-XSS-Protection: 1; mode=block
+      X-Content-Type-Options: nosniff
+      Referrer-Policy: no-referrer-when-downgrade
