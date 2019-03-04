@@ -3,9 +3,14 @@ runtime: php72
 default_expiration: '7d'
 
 handlers:
-  - url: /.*
-    static_dir: dist/
-    secure: always
-    redirect_http_response_code: 301
-  - url: /.*
-    script: auto
+  - url: /
+  static_files: dist/index.html
+  upload: dist/index.html
+  secure: always
+  redirect_http_response_code: 301
+
+  - url: /(.*)
+  static_files: dist/\1
+  upload: dist/(.*)
+  secure: always
+  redirect_http_response_code: 301
