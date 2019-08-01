@@ -5,19 +5,24 @@
 
 html, body
   height: 100%
-  font-size: 100%
-  font-family: Roboto, sans-serif
+  font:
+    size: 20px
+    family: $main-font
   line-height: 1.4
+  color: $black
 
-//img
+img
   display: block
   max-width: 100%
   height: auto
 
 a
   text-decoration: none
-  transition: all .2s linear
+  transition: $transition
   color: inherit
 
 nav ul
   list-style: none
+
+small
+  font-size: inherit

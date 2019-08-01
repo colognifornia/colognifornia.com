@@ -19,7 +19,7 @@
  *
  */
 
-const gulp                      = require('gulp'),
+const gulp                  = require('gulp'),
   del                       = require('del'),
   sourcemaps                = require('gulp-sourcemaps'),
   plumber                   = require('gulp-plumber'),
@@ -63,7 +63,6 @@ gulp.task('html', () => {
 gulp.task('pug', () => {
   return gulp.src([ src_folder + 'pug/**/!(_)*.pug' ], {
     base: src_folder + 'pug',
-    since: gulp.lastRun('pug')
   })
     .pipe(plumber())
     .pipe(pug())
@@ -81,7 +80,7 @@ gulp.task('sass', () => {
   return gulp.src([
     src_assets_folder + 'sass/**/*.sass',
     src_assets_folder + 'scss/**/*.scss'
-  ], { since: gulp.lastRun('sass') })
+  ])
     .pipe(sourcemaps.init())
     .pipe(plumber())
     .pipe(sass())

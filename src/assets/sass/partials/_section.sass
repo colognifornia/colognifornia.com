@@ -1,0 +1,16 @@
+.section
+  height: 100vh
+  padding: $spacer * 2
+  position: relative
+
+  &::after
+    content: ''
+    height: 100%
+    width: 100%
+    position: absolute
+    left: 0
+    top: 0
+    z-index: -1
+    background-color: $red
+    //box-shadow: $shadow // does not show up due to clip
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%)
