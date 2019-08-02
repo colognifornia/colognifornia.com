@@ -5,6 +5,12 @@
   flex-direction: column
   position: relative
 
+  @media screen and (max-width: 600px)
+    padding: $spacer * 1.5
+
+  @media screen and (max-width: 550px)
+    padding: $spacer
+
   &::after
     content: ''
     height: 100%
@@ -17,7 +23,25 @@
 
   &:nth-child(odd)
     &::after
-      clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%)
+      clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%)
+
+      @media screen and (max-width: 1600px)
+        clip-path: polygon(0 0, 100% 0, 100% 10%, 0 100%)
+
+      @media screen and (max-width: 1280px)
+        clip-path: polygon(0 0, 100% 0, 100% 30%, 0 90%)
+
+      @media screen and (max-width: 960px)
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 80%)
+
+      @media screen and (max-width: 720px)
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0 80%)
+
+      @media screen and (max-width: 600px)
+        clip-path: polygon(0 0, 100% 0, 100% 70%, 0 80%)
+
+      @media screen and (max-width: 480px)
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 82%)
 
     &:not(.hero-section) .container
       margin-top: 320px
@@ -32,7 +56,25 @@
     justify-content: flex-end
 
     &::after
-      clip-path: polygon(0 100%, 100% 100%, 100% 25%)
+      clip-path: polygon(0 100%, 100% 100%, 100% 20%)
+
+      @media screen and (max-width: 1600px)
+        clip-path: polygon(0 100%, 100% 100%, 100% 10%)
+
+      @media screen and (max-width: 1280px)
+        clip-path: polygon(0 90%, 0 100%, 100% 100%, 100% 30%)
+
+      @media screen and (max-width: 960px)
+        clip-path: polygon(0 60%, 0 100%, 100% 100%, 100% 30%)
+
+      @media screen and (max-width: 720px)
+        clip-path: polygon(0 50%, 0 100%, 100% 100%, 100% 30%)
+
+      @media screen and (max-width: 600px)
+        clip-path: polygon(0 40%, 0 100%, 100% 100%, 100% 30%)
+
+      @media screen and (max-width: 480px)
+        clip-path: polygon(0 22%, 0 100%, 100% 100%, 100% 20%)
 
     .section__header
       align-self: flex-end

@@ -10,5 +10,15 @@
   justify-content: space-between
   align-items: center
 
+  @media screen and (max-width: 840px)
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+
 .copyright
+  margin-right: $spacer * 2
   font-size: 0.9rem
+
+  @media screen and (max-width: 840px)
+    margin-right: 0
+    margin-bottom: $spacer

@@ -8,8 +8,33 @@
   border-radius: $spacer / 4
   box-shadow: $shadow--elevated
 
+  @media screen and (max-width: 1024px)
+    min-width: 60%
+    max-width: 75%
+
+  @media screen and (max-width: 1024px)
+    min-width: 70%
+    max-width: 90%
+
+  @media screen and (max-width: 600px)
+    min-width: 75%
+    max-width: none
+    padding: $spacer * 1.5
+
+  @media screen and (max-width: 550px)
+    padding: $spacer
+
 .card--large
   max-width: 75%
+
+  @media screen and (max-width: 1024px)
+    max-width: 90%
+
+  @media screen and (max-width: 1024px)
+    max-width: 95%
+
+  @media screen and (max-width: 600px)
+    max-width: none
 
 .card__heading
   text-shadow: none
