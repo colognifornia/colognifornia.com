@@ -1,11 +1,23 @@
 .card
-  width: 60%
+  min-width: 50%
+  max-width: 60%
   padding: $spacer * 2
-  align-self: flex-end
   background-color: $white
   color: $black
   border-radius: $spacer / 4
   box-shadow: $shadow--elevated
 
+.card--large
+  max-width: 75%
+
+.card__heading
+  text-shadow: none
+
 .card__btn
   margin-top: $spacer * 2
+
+.card__text
+  margin-bottom: $spacer
+
+  &:last-of-type
+    margin-bottom: 0

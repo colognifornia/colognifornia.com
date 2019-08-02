@@ -36,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/colognifornia/colognifornia.com/issues"
   },
-  "homepage": "https://github.com/colognifornia/colognifornia.com#readme"
+  "homepage": "https://github.com/colognifornia/colognifornia.com#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.0"
+  }
 }

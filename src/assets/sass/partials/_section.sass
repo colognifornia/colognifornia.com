@@ -1,6 +1,8 @@
 .section
-  height: 100vh
+  display: flex
+  min-height: 100vh
   padding: $spacer * 2
+  flex-direction: column
   position: relative
 
   &::after
@@ -13,4 +15,34 @@
     z-index: -1
     background-color: $red
     //box-shadow: $shadow // does not show up due to clip
-    clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%)
+
+  &:nth-child(odd)
+    &::after
+      clip-path: polygon(0 0, 100% 0, 100% 25%, 0 100%)
+
+    &:not(.hero-section) .container
+      margin-top: 320px
+
+    .section__header
+      align-self: flex-start
+
+    .section__content
+      align-self: flex-end
+
+
+
+  &:nth-child(even)
+    justify-content: flex-end
+
+    &::after
+      clip-path: polygon(0 100%, 100% 100%, 100% 25%)
+
+    .section__header
+      align-self: flex-end
+
+    .section__content
+      align-self: flex-start
+
+.section__header
+  margin-bottom: $spacer * 2
+  color: $white
