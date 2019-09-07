@@ -13,7 +13,7 @@
   @media screen and (max-width: 1600px)
     max-width: $site-width--small
 
-.h1, .h2, .h3, .h4
+.h1, .h2, .h3, .h4, .h5, .h6
   text-shadow: $text-shadow
 
 .h1, .h2
@@ -27,18 +27,36 @@
   font-size: 3rem
   letter-spacing: -0.5px
 
+.h3, .h4, .h5
+  font-weight: $main-font--regular
+
 .h3
   font:
     size: 2.4rem
-    weight: $main-font--regular
   letter-spacing: 0
 
 .h4
   font:
     size: 1.7rem
-    weight: $main-font--regular
   letter-spacing: 0.25px
+
+.h5
+  font:
+    size: 1.2rem
+  letter-spacing: 0
+
+.h6
+  font:
+    size: 1rem
+    weight: $main-font--medium
+  letter-spacing: 0.15px
 
 .icon
   @media screen and (max-width: 600px)
     display: block
+
+a
+  color: $red
+
+.contact-link
+  color: inherit

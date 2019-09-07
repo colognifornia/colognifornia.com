@@ -36,8 +36,16 @@
   @media screen and (max-width: 600px)
     max-width: none
 
+.card--full-width
+  max-width: none
+  width: 100%
+
 .card__heading
   text-shadow: none
+  margin-bottom: $spacer
+
+  &:last-child
+    margin-bottom: 0
 
 .card__btn
   margin-top: $spacer * 2
@@ -47,3 +55,16 @@
 
   &:last-of-type
     margin-bottom: 0
+
+.card__list
+  margin-bottom: $spacer * 2
+
+  &:last-child
+    margin-bottom: 0
+
+  li
+    margin-left: $spacer * 2
+    margin-bottom: $spacer
+
+    &:last-child
+      margin-bottom: 0
