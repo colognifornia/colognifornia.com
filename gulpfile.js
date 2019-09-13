@@ -140,6 +140,12 @@ gulp.task('images', () => {
     .pipe(browserSync.stream());
 });
 
+gulp.task('fonts', () => {
+  return gulp.src([ src_assets_folder + 'fonts/**/*.+(eot|svg|ttf|woff|woff2)' ], { since: gulp.lastRun('fonts') })
+    .pipe(gulp.dest(dist_assets_folder + 'fonts'))
+    .pipe(browserSync.stream());
+});
+
 gulp.task('vendor', () => {
   if (node_dependencies.length === 0) {
     return new Promise((resolve) => {
@@ -156,7 +162,7 @@ gulp.task('vendor', () => {
     .pipe(browserSync.stream());
 });
 
-gulp.task('build', gulp.series('clear', 'html', 'pug', 'config-files', 'sass', 'less', 'stylus', 'js', 'images', 'vendor'));
+gulp.task('build', gulp.series('clear', 'html', 'pug', 'config-files', 'sass', 'less', 'stylus', 'js', 'images', 'fonts', 'vendor'));
 
 gulp.task('dev', gulp.series('html', 'pug', 'sass', 'less', 'stylus', 'js'));
 
@@ -173,6 +179,10 @@ gulp.task('serve', () => {
 gulp.task('watch', () => {
   const watchImages = [
     src_assets_folder + 'images/**/*.+(png|jpg|jpeg|gif|svg|ico)'
+  ];
+
+  const watchFonts = [
+    src_assets_folder + 'fonts/**/*.+(eot|svg|ttf|woff|woff2)'
   ];
 
   const watchVendor = [];
@@ -193,6 +203,7 @@ gulp.task('watch', () => {
 
   gulp.watch(watch, gulp.series('dev')).on('change', browserSync.reload);
   gulp.watch(watchImages, gulp.series('images')).on('change', browserSync.reload);
+  gulp.watch(watchFonts, gulp.series('fonts')).on('change', browserSync.reload);
   gulp.watch(watchVendor, gulp.series('vendor')).on('change', browserSync.reload);
 });
 
