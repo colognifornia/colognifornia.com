@@ -79,14 +79,15 @@
     &.page-content-section
       justify-content: center
 
-      //.container
-        margin-top: 320px
-
     .section__header
       align-self: flex-end
 
     .section__content
       align-self: flex-start
+
+  &.page-content-section
+    &::after
+      clip-path: polygon(0 calc(100% - 250px), 0 100%, 100% 100%, 100% calc(100% - 250px))
 
 .section__header
   margin-bottom: $spacer * 2
