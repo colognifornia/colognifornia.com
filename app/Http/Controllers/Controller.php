@@ -9,7 +9,7 @@ use Slim\Views\Twig;
  *
  * @package Colognifornia\Web\Http\Controllers
  */
-class Controller
+abstract class Controller
 {
 
     /**

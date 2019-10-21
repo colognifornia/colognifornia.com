@@ -1,10 +1,13 @@
 <?php
 
 use DI\Bridge\Slim\Bridge as AppFactory;
+use DI\ContainerBuilder;
 
-$app = AppFactory::create();
+$builder = new ContainerBuilder();
+$builder->addDefinitions(__DIR__ . '/container.php');
+$container = $builder->build();
 
-require_once __DIR__ . '/../bootstrap/container.php';
+$app = AppFactory::create($container);
 
 require_once __DIR__ . '/../bootstrap/middleware.php';
 
