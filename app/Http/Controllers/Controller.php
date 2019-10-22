@@ -2,6 +2,8 @@
 
 namespace Colognifornia\Web\Http\Controllers;
 
+use Psr\Http\Message\ResponseInterface as Response;
+use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Views\Twig;
 
 /**
@@ -25,5 +27,20 @@ abstract class Controller
     public function __construct(Twig $view)
     {
         $this->view = $view;
+    }
+
+    /**
+     * @param Request $request
+     * @param Response $response
+     * @param string $view
+     * @throws \Twig\Error\LoaderError
+     * @throws \Twig\Error\RuntimeError
+     * @throws \Twig\Error\SyntaxError
+     */
+    protected function view(Request $request, Response $response, string $view)
+    {
+        $this->view->getEnvironment()->addGlobal('request', $request);
+
+        $this->view->render($response, $view);
     }
 }

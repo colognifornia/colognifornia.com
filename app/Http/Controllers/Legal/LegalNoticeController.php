@@ -1,16 +1,17 @@
 <?php
 
-namespace Colognifornia\Web\Http\Controllers;
+namespace Colognifornia\Web\Http\Controllers\Legal;
 
+use Colognifornia\Web\Http\Controllers\Controller;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
 /**
- * Class HomeController
+ * Class LegalNoticeController
  *
- * @package Colognifornia\Web\Http\Controllers
+ * @package Colognifornia\Web\Http\Controllers\Legal
  */
-class HomeController extends Controller
+class LegalNoticeController extends Controller
 {
 
     /**
@@ -23,7 +24,7 @@ class HomeController extends Controller
      */
     public function index(Request $request, Response $response)
     {
-        $this->view($request, $response, 'home.twig');
+        $this->view($request, $response, 'legal/legal-notice.twig');
 
         return $response;
     }
