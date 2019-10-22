@@ -2,7 +2,6 @@
 
 use DI\Bridge\Slim\Bridge as AppFactory;
 use DI\ContainerBuilder;
-use Slim\Views\Twig;
 
 $builder = new ContainerBuilder();
 $builder->addDefinitions(__DIR__ . '/container.php');
