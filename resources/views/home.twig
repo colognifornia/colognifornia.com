@@ -1,0 +1,69 @@
+{% extends 'templates/_default.twig' %}
+
+{% block title %}Empowering people with the help of technology{% endblock %}
+
+{% block content %}
+    <section class="section hero-section">
+        <div class="container">
+            {% include 'partials/_header.twig' %}
+
+            <div class="card section__content">
+                <h2 class="h2 card__heading">Empowering people with the help of technology.</h2>
+            </div>
+
+            {% include 'partials/_scroll-down.twig' %}
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h3 class="h3 section__header">Who we are</h3>
+
+            <div class="card section__content">
+                <p class="h4 card__heading">
+                    <strong>We are a small company based in Cologne, Germany, focusing on web development and design.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h3 class="h3 section__header">What we do</h3>
+
+            <div class="card card--large section__content">
+                <p class="h4 card__heading card__text">
+                    <strong>Doing web development and design for customers wanting to benefit from the digital market by starting or enhancing their digital business.</strong>
+                </p>
+
+                <p class="h4 card__heading card__text">
+                    <strong>Helping people to inform themselves, learn and grow.</strong>
+                </p>
+
+                <p class="h4 card__heading card__text">
+                    <strong>Contributing to Open Source in order to drive helpful technology forward.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h3 class="h3 section__header">Contact us</h3>
+
+            <div class="card section__content">
+                <p class="h4 card__heading card__text">
+                    <strong><i class="icon fas fa-envelope"></i> <a href="mailto:hello@colognifornia.com" class="contact-link">hello@<wbr>colognifornia.com</a></strong>
+                </p>
+
+                <p class="h4 card__heading card__text">
+                    <strong><i class="icon fab fa-twitter"></i> <a href="https://twitter.com/colognifornia" target="_blank" rel="noopener" class="contact-link">@colognifornia</a></strong>
+                </p>
+
+                <p class="h4 card__heading card__text">
+                    <strong><i class="icon fab fa-github"></i> <a href="https://github.com/colognifornia" target="_blank" rel="noopener" class="contact-link">@colognifornia</a></strong>
+                </p>
+            </div>
+        </div>
+    </section>
+{% endblock %}
