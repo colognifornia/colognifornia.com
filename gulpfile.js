@@ -77,42 +77,17 @@ gulp.task('config-files', () => {
 });
 
 gulp.task('sass', () => {
-  return gulp.src([
-    src_assets_folder + 'sass/**/*.sass',
-    src_assets_folder + 'scss/**/*.scss'
-  ])
-    .pipe(sourcemaps.init())
-    .pipe(plumber())
-    .pipe(sass())
-    .pipe(autoprefixer(autoprefixer_options))
-    .pipe(minifyCss())
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(dist_assets_folder + 'css'))
-    .pipe(browserSync.stream());
-});
-
-gulp.task('less', () => {
-  return gulp.src([ src_assets_folder + 'less/**/!(_)*.less'], { since: gulp.lastRun('less') })
-    .pipe(sourcemaps.init())
-    .pipe(plumber())
-    .pipe(less())
-    .pipe(autoprefixer(autoprefixer_options))
-    .pipe(minifyCss())
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(dist_assets_folder + 'css'))
-    .pipe(browserSync.stream());
-});
-
-gulp.task('stylus', () => {
-  return gulp.src([ src_assets_folder + 'stylus/**/!(_)*.styl'], { since: gulp.lastRun('stylus') })
-    .pipe(sourcemaps.init())
-    .pipe(plumber())
-    .pipe(stylus())
-    .pipe(autoprefixer(autoprefixer_options))
-    .pipe(minifyCss())
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(dist_assets_folder + 'css'))
-    .pipe(browserSync.stream());
+    return gulp.src([
+        src_assets_folder + 'sass/**/*.sass',
+        src_assets_folder + 'scss/**/*.scss'
+    ])
+        .pipe(sourcemaps.init())
+        .pipe(plumber())
+        .pipe(sass())
+        .pipe(autoprefixer())
+        .pipe(minifyCss())
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(dist_assets_folder + 'css'));
 });
 
 gulp.task('js', () => {
