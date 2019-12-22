@@ -19,7 +19,7 @@
  *
  */
 
-const gulp                      = require('gulp'),
+const gulp                    = require('gulp'),
     sourcemaps                = require('gulp-sourcemaps'),
     plumber                   = require('gulp-plumber'),
     sass                      = require('gulp-sass'),
