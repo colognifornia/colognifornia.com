@@ -6,16 +6,16 @@
 
         <div class="footer__bottom-bar">
             <p class="copyright">
-                <small>Copyright &copy; {{ "now"|date('Y') }} <a href="{{ url_for('home') }}">Colognifornia</a>. All rights reserved.</small>
+                <small>Copyright &copy; {{ "now"|date('Y') }} <a href="{{ url_for('home') }}">Colognifornia</a>. {{ __('footer.copyright.rights') }}</small>
             </p>
 
             <nav class="legal-nav">
                 <ul>
                     <li>
-                        <a href="{{ url_for('legal-notice') }}">Legal Notice</a>
+                        <a href="{{ url_for('legal-notice') }}">{{ __('footer.legal-nav.legal-notice') }}</a>
                     </li>
                     <li>
-                        <a href="{{ url_for('privacy-policy') }}">Privacy Policy</a>
+                        <a href="{{ url_for('privacy-policy') }}">{{ __('footer.legal-nav.privacy-policy') }}</a>
                     </li>
                 </ul>
             </nav>

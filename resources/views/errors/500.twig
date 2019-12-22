@@ -1,6 +1,6 @@
 {% extends 'templates/_default.twig' %}
 
-{% block title %}500 Internal Server Error{% endblock %}
+{% block title %}{{ __('errors.500.title') }}{% endblock %}
 
 {% block content %}
     <section class="section hero-section">
@@ -8,15 +8,16 @@
             {% include 'partials/_header.twig' %}
 
             <div class="card section__content">
-                <h2 class="h2 card__heading">500 Internal Server Error</h2>
+                <h2 class="h2 card__heading">{{ __('errors.500.title') }}</h2>
 
                 <p class="card__text">
-                    Oops, looks like something went wrong on our end.
+                    {{ __('errors.500.text.0') }}
                 </p>
 
                 <p class="card__text">
-                    We're very sorry to hear that.
-                    Feel free to reach out to us at <a href="mailto:hello@colognifornia.com">hello@colognifornia.com</a> in case you need any help.
+                    {{ __('errors.500.text.1', {
+                        '%email%': '<a href="mailto:hello@colognifornia.com">hello@colognifornia.com</a>'
+                    })|raw }}
                 </p>
             </div>
 
@@ -24,23 +25,5 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="container">
-            <h3 class="h3 section__header">Contact us</h3>
-
-            <div class="card section__content">
-                <p class="h4 card__heading card__text">
-                    <strong><i class="icon fas fa-envelope"></i> <a href="mailto:hello@colognifornia.com" class="contact-link">hello@<wbr>colognifornia.com</a></strong>
-                </p>
-
-                <p class="h4 card__heading card__text">
-                    <strong><i class="icon fab fa-twitter"></i> <a href="https://twitter.com/colognifornia" target="_blank" rel="noopener" class="contact-link">@colognifornia</a></strong>
-                </p>
-
-                <p class="h4 card__heading card__text">
-                    <strong><i class="icon fab fa-github"></i> <a href="https://github.com/colognifornia" target="_blank" rel="noopener" class="contact-link">@colognifornia</a></strong>
-                </p>
-            </div>
-        </div>
-    </section>
+    {% include 'partials/_contact.twig' %}
 {% endblock %}
