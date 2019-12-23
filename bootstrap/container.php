@@ -11,7 +11,7 @@ return [
         ->method('set', require_once __DIR__ . '/../config/config.php'),
     Twig::class => function (Container $container) {
         return Twig::create($container->get(Config::class)->get('view.path'), [
-            'cache' => $container->get(Config::class)->get('view.cache'),
+            'cache' => $container->get(Config::class)->get('app.debug') ? false : $container->get(Config::class)->get('view.cache'),
         ]);
     },
     Translator::class => function (Container $container) {
