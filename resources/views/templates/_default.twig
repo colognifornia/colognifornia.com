@@ -10,6 +10,7 @@
         <link rel="canonical" href="{{ get_uri() }}">
         <title>Colognifornia{% if _title is not empty %} - {{ _title }}{% endif %}</title>
         <meta name="description" content="{{ _description }}">
+        {% if (is_current_url('privacy-policy') or is_current_url('legal-notice')) %}<meta name="robots" content="noindex, follow">{% endif %}
 
         <link rel="stylesheet" href="/assets/css/app.css">
 
@@ -30,6 +31,8 @@
         <meta name="msapplication-TileColor" content="#F13C48">
         <meta name="msapplication-TileImage" content="/assets/images/ms-icon-144x144.png">
         <meta name="theme-color" content="#F13C48">
+
+        {% include 'partials/_organization-structured-data.twig' %}
     </head>
     <body>
         <main class="wrapper">
