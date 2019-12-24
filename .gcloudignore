@@ -1,5 +1,4 @@
 .git
-src
 .editorconfig
 .gcloudignore
 .gitattributes
@@ -10,6 +9,11 @@ gulpfile.js
 LICENSE
 package.json
 package-lock.json
+composer.json
+composer.lock
 README.md
 node_modules
+vendor
 .idea
+.htaccess
+!public/node_modules

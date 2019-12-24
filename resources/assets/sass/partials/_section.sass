@@ -1,0 +1,94 @@
+.section
+  display: flex
+  min-height: 100vh
+  padding: $spacer * 2
+  flex-direction: column
+  position: relative
+
+  @media screen and (max-width: 600px)
+    padding: $spacer * 1.5
+
+  @media screen and (max-width: 550px)
+    padding: $spacer
+
+  &::after
+    content: ''
+    height: 100%
+    width: 100%
+    position: absolute
+    left: 0
+    top: 0
+    z-index: -1
+    background-color: $red
+
+  &:nth-child(odd)
+    &::after
+      clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%)
+
+      @media screen and (max-width: 1600px)
+        clip-path: polygon(0 0, 100% 0, 100% 10%, 0 100%)
+
+      @media screen and (max-width: 1280px)
+        clip-path: polygon(0 0, 100% 0, 100% 30%, 0 90%)
+
+      @media screen and (max-width: 960px)
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 80%)
+
+      @media screen and (max-width: 720px)
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0 80%)
+
+      @media screen and (max-width: 600px)
+        clip-path: polygon(0 0, 100% 0, 100% 70%, 0 80%)
+
+      @media screen and (max-width: 480px)
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 82%)
+
+    &:not(.hero-section) .container
+      margin-top: 320px
+
+    .section__header
+      align-self: flex-start
+
+    .section__content
+      align-self: flex-end
+
+  &:nth-child(even)
+    justify-content: flex-end
+
+    &::after
+      clip-path: polygon(0 100%, 100% 100%, 100% 20%)
+
+      @media screen and (max-width: 1600px)
+        clip-path: polygon(0 100%, 100% 100%, 100% 10%)
+
+      @media screen and (max-width: 1280px)
+        clip-path: polygon(0 90%, 0 100%, 100% 100%, 100% 30%)
+
+      @media screen and (max-width: 960px)
+        clip-path: polygon(0 60%, 0 100%, 100% 100%, 100% 30%)
+
+      @media screen and (max-width: 720px)
+        clip-path: polygon(0 50%, 0 100%, 100% 100%, 100% 30%)
+
+      @media screen and (max-width: 600px)
+        clip-path: polygon(0 40%, 0 100%, 100% 100%, 100% 30%)
+
+      @media screen and (max-width: 480px)
+        clip-path: polygon(0 22%, 0 100%, 100% 100%, 100% 20%)
+
+    &.page-content-section
+      justify-content: center
+
+    .section__header
+      align-self: flex-end
+
+    .section__content
+      align-self: flex-start
+
+  &.page-content-section
+    &::after
+      clip-path: polygon(0 calc(100% - 250px), 0 100%, 100% 100%, 100% calc(100% - 250px))
+
+.section__header
+  margin-bottom: $spacer * 2
+  color: $white

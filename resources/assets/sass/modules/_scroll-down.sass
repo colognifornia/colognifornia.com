@@ -1,0 +1,108 @@
+.scroll-down
+  position: absolute
+  right: 0
+  bottom: ($spacer * 4)
+  color: $red
+  user-select: none
+  font:
+    size: 0.8rem
+    weight: $main-font--medium
+  text-align: center
+
+  @media screen and (max-width: 600px)
+    margin-top: $spacer * 2
+    position: relative
+    right: auto
+    bottom: auto
+
+  @media screen and (max-width: 400px)
+    margin-top: $spacer * 4
+
+  @media screen and (max-width: 360px)
+    margin-top: $spacer * 6
+
+  @media screen and (max-width: 320px)
+    margin-top: $spacer * 8
+
+  .arrow
+    content: ''
+    display: block
+    height: 40px
+    width: 40px
+    position: absolute
+    top: 30px
+    left: calc(50% - 20px)
+    background-color: transparent
+    border-bottom: 3px solid $red
+    border-left: 3px solid $red
+    transform: rotate(-45deg) translate(0, 0)
+    opacity: 0
+
+    &:nth-child(2)
+      animation: scroll-down1 3s .4s infinite cubic-bezier(0.4, 0.0, 0.2, 1)
+
+    &:nth-child(3)
+      transform: rotate(-45deg) translate(3px, -3px)
+      animation: scroll-down2 3s .3s infinite cubic-bezier(0.4, 0.0, 0.2, 1)
+
+    &:nth-child(4)
+      transform: rotate(-45deg) translate(6px, -6px)
+      animation: scroll-down3 3s .2s infinite cubic-bezier(0.4, 0.0, 0.2, 1)
+
+    &:nth-child(5)
+      transform: rotate(-45deg) translate(9px, -9px)
+      animation: scroll-down4 3s .1s infinite cubic-bezier(0.4, 0.0, 0.2, 1)
+
+    &:nth-child(6)
+      transform: rotate(-45deg) translate(12px, -12px)
+      animation: scroll-down5 3s infinite cubic-bezier(0.4, 0.0, 0.2, 1)
+
+@keyframes scroll-down1
+  0%
+    transform: rotate(-45deg) translate(0, 0)
+    opacity: 0
+  10%
+    opacity: 1
+  100%
+    transform: rotate(-45deg) translate(-$spacer, $spacer)
+    opacity: 0
+
+@keyframes scroll-down2
+  0%
+    transform: rotate(-45deg) translate(3px, -3px)
+    opacity: 0
+  10%
+    opacity: 0.8
+  100%
+    transform: rotate(-45deg) translate(-$spacer + 3px, $spacer - 3px)
+    opacity: 0
+
+@keyframes scroll-down3
+  0%
+    transform: rotate(-45deg) translate(6px, -6px)
+    opacity: 0
+  10%
+    opacity: 0.6
+  100%
+    transform: rotate(-45deg) translate(-$spacer + 6px, $spacer - 6px)
+    opacity: 0
+
+@keyframes scroll-down4
+  0%
+    transform: rotate(-45deg) translate(9px, -9px)
+    opacity: 0
+  10%
+    opacity: 0.4
+  100%
+    transform: rotate(-45deg) translate(-$spacer + 9px, $spacer - 9px)
+    opacity: 0
+
+@keyframes scroll-down5
+  0%
+    transform: rotate(-45deg) translate(12px, -12px)
+    opacity: 0
+  10%
+    opacity: 0.2
+  100%
+    transform: rotate(-45deg) translate(-$spacer + 12px, $spacer - 12px)
+    opacity: 0
