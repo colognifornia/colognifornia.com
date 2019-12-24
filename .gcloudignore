@@ -17,3 +17,5 @@ node_modules
 .idea
 .htaccess
 !public/node_modules
+!vendor
+php.ini
