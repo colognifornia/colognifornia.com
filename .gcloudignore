@@ -5,6 +5,7 @@
 .gitignore
 app.yaml
 cloudbuild.yaml
+cloudbuild_staging.yaml
 gulpfile.js
 LICENSE
 package.json
@@ -13,7 +14,6 @@ composer.json
 composer.lock
 README.md
 node_modules
-vendor
 .idea
 .htaccess
 !public/node_modules
