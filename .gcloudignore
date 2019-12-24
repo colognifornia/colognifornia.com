@@ -10,11 +10,10 @@ gulpfile.js
 LICENSE
 package.json
 package-lock.json
-composer.json
-composer.lock
 README.md
 node_modules
 .idea
 .htaccess
 !public/node_modules
 php.ini
+tmp

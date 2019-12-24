@@ -2,7 +2,7 @@
 
 return [
 
-    'debug' => false,
+    'debug' => getenv('GOOGLE_CLOUD_PROJECT') ? false : true,
 
     'default_lang' => 'en',
 

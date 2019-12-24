@@ -1,5 +1,7 @@
 runtime: php73
 
+entrypoint: serve public/index.php
+
 default_expiration: '180d'
 
 handlers:
