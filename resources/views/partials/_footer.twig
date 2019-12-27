@@ -9,16 +9,23 @@
                 <small>Copyright &copy; {{ "now"|date('Y') }} <a href="{{ url_for('home') }}">Colognifornia</a>. {{ __('footer.copyright.rights') }}</small>
             </p>
 
-            <nav class="legal-nav">
-                <ul>
-                    <li>
-                        <a href="{{ url_for('legal-notice') }}">{{ __('footer.legal-nav.legal-notice') }}</a>
-                    </li>
-                    <li>
-                        <a href="{{ url_for('privacy-policy') }}">{{ __('footer.legal-nav.privacy-policy') }}</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="footer__navbar">
+                <nav class="legal-nav">
+                    <ul>
+                        <li>
+                            <a href="{{ url_for('legal-notice') }}">{{ __('footer.legal-nav.legal-notice') }}</a>
+                        </li>
+                        <li>
+                            <a href="{{ url_for('privacy-policy') }}">{{ __('footer.legal-nav.privacy-policy') }}</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <p class="language-selector">
+                    <a href="{{ get_uri() ~ '?hl=de' }}">Deutsch</a> |
+                    <a href="{{ get_uri() ~ '?hl=en' }}">English</a>
+                </p>
+            </div>
         </div>
     </div>
 </footer>
