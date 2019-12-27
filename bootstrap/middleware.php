@@ -27,11 +27,11 @@ $errorMiddleware = $app->addErrorMiddleware($container->get(Config::class)->get(
 
 // Error Handlers
 $errorMiddleware->setErrorHandler(HttpNotFoundException::class, function (Request $request) use ($container) {
-    return (new HttpNotFoundController($container->get(Twig::class), $container->get(Translator::class)))
+    return (new HttpNotFoundController($container->get(Twig::class), $container->get(Config::class)))
         ->index($request, (new Response())->withStatus(404));
 });
 
 $errorMiddleware->setDefaultErrorHandler(function (Request $request) use ($container) {
-    return (new HttpInternalServerErrorController($container->get(Twig::class), $container->get(Translator::class)))
+    return (new HttpInternalServerErrorController($container->get(Twig::class), $container->get(Config::class)))
         ->index($request, (new Response())->withStatus(500));
 });
