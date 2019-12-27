@@ -4,6 +4,7 @@ use Colognifornia\Web\Http\Controllers\Errors\HttpInternalServerErrorController;
 use Colognifornia\Web\Http\Controllers\Errors\HttpNotFoundController;
 use Colognifornia\Web\Http\Middleware\DetectAndSetUserLanguage;
 use Colognifornia\Web\Http\Middleware\RemoveTrailingSlashFromUrl;
+use Colognifornia\Web\Http\Middleware\SetSecurityHeaders;
 use Colognifornia\Web\Config\Config;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Exception\HttpNotFoundException;
@@ -15,6 +16,8 @@ use Symfony\Component\Translation\Translator;
 $app->addRoutingMiddleware();
 
 $app->add(new RemoveTrailingSlashFromUrl());
+
+$app->add(new SetSecurityHeaders());
 
 $app->add(TwigMiddleware::createFromContainer($app, Twig::class));
 

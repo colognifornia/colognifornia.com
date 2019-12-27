@@ -11,13 +11,14 @@ class Session
 {
 
     /**
-     *
+     * @param array $options
      */
-    public static function start()
+    public static function start(array $options = [])
     {
-        session_start([
+        session_start(array_merge([
             'cookie_httponly' => true,
-        ]);
+            'cookie_samesite' => 'Strict',
+        ], $options));
         session_regenerate_id(true);
     }
 

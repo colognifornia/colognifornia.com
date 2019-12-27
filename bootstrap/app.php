@@ -13,7 +13,9 @@ $container = $builder->build();
 
 $app = AppFactory::create($container);
 
-Session::start();
+Session::start([
+    'cookie_secure' => getenv('GOOGLE_CLOUD_PROJECT') ? true : false,
+]);
 
 $container->get(Twig::class)->getEnvironment()->addExtension(
     new SymfonyTranslatorTwigExtension($container->get(Translator::class))
