@@ -2,6 +2,7 @@
 
 namespace Colognifornia\Web\Http\Controllers;
 
+use Colognifornia\Web\Config\Config;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Views\Twig;
@@ -15,18 +16,24 @@ abstract class Controller
 {
 
     /**
-     * @var
+     * @var Twig
      */
     protected $view;
+
+    /**
+     * @var Config
+     */
+    protected $config;
 
     /**
      * HomeController constructor.
      *
      * @param Twig $view
      */
-    public function __construct(Twig $view)
+    public function __construct(Twig $view, Config $config)
     {
         $this->view = $view;
+        $this->config = $config;
     }
 
     /**
@@ -39,6 +46,16 @@ abstract class Controller
      */
     protected function view(Request $request, Response $response, string $view)
     {
-        $this->view->render($response, $view);
+        $this->view->render($response, $view, $this->exposeToView());
+    }
+
+    /**
+     * @return array
+     */
+    protected function exposeToView() : array
+    {
+        return [
+            'base_url' => $this->config->get('app.base_url'),
+        ];
     }
 }
