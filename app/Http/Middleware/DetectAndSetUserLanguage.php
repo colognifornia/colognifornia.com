@@ -60,7 +60,13 @@ class DetectAndSetUserLanguage
             return $lang;
         }
 
-        return Locale::getPrimaryLanguage($request->getServerParams()['HTTP_ACCEPT_LANGUAGE']) ?? 'en';
+        $lang = Locale::getPrimaryLanguage($request->getServerParams()['HTTP_ACCEPT_LANGUAGE'] ?? 'en');
+
+        if (!empty($lang) && $this->isSupportedLanguage($lang)) {
+            return $lang;
+        }
+
+        return 'en';
     }
 
     /**
