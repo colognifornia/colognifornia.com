@@ -1,0 +1,40 @@
+.footer
+  display: flex
+
+  .container
+    justify-content: space-between
+    flex: 1
+
+.footer__bottom-bar
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  @media screen and (max-width: 1005px)
+    align-items: baseline
+
+  @media screen and (max-width: 840px)
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+
+.copyright
+  margin-right: $spacer * 2
+  font-size: 0.9rem
+
+  @media screen and (max-width: 840px)
+    margin-right: 0
+    margin-bottom: $spacer
+
+.footer__navbar
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  @media screen and (max-width: 1005px)
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-end
+
+  @media screen and (max-width: 840px)
+    align-items: flex-start

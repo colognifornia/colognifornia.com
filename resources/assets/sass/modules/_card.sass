@@ -1,0 +1,70 @@
+.card
+  min-width: 50%
+  max-width: 60%
+  min-height: 350px
+  padding: $spacer * 2
+  background-color: $white
+  color: $black
+  border-radius: $spacer / 4
+  box-shadow: $shadow--elevated
+
+  @media screen and (max-width: 1024px)
+    min-width: 60%
+    max-width: 75%
+
+  @media screen and (max-width: 1024px)
+    min-width: 70%
+    max-width: 90%
+
+  @media screen and (max-width: 600px)
+    min-width: 75%
+    max-width: none
+    padding: $spacer * 1.5
+
+  @media screen and (max-width: 550px)
+    padding: $spacer
+
+.card--large
+  max-width: 75%
+
+  @media screen and (max-width: 1024px)
+    max-width: 90%
+
+  @media screen and (max-width: 1024px)
+    max-width: 95%
+
+  @media screen and (max-width: 600px)
+    max-width: none
+
+.card--full-width
+  max-width: none
+  width: 100%
+
+.card__heading
+  text-shadow: none
+  margin-bottom: $spacer
+
+  &:last-child
+    margin-bottom: 0
+
+.card__btn
+  margin-top: $spacer * 2
+
+.card__text
+  margin-bottom: $spacer * 2
+
+  &:last-child
+    margin-bottom: 0
+
+.card__list
+  margin-bottom: $spacer * 2
+
+  &:last-child
+    margin-bottom: 0
+
+  li
+    margin-left: $spacer * 2
+    margin-bottom: $spacer
+
+    &:last-child
+      margin-bottom: 0

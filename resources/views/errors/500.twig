@@ -1,0 +1,29 @@
+{% extends 'templates/_default.twig' %}
+
+{% block title %}{{ __('errors.500.title') }}{% endblock %}
+
+{% block content %}
+    <section class="section hero-section">
+        <div class="container">
+            {% include 'partials/_header.twig' %}
+
+            <div class="card section__content">
+                <h2 class="h2 card__heading">{{ __('errors.500.title') }}</h2>
+
+                <p class="card__text">
+                    {{ __('errors.500.text.0') }}
+                </p>
+
+                <p class="card__text">
+                    {{ __('errors.500.text.1', {
+                        '%email%': '<a href="mailto:hello@colognifornia.com">hello@colognifornia.com</a>'
+                    })|raw }}
+                </p>
+            </div>
+
+            {% include 'partials/_scroll-down.twig' %}
+        </div>
+    </section>
+
+    {% include 'partials/_contact.twig' %}
+{% endblock %}

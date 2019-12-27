@@ -1,0 +1,31 @@
+<footer class="footer section">
+    <div class="container">
+        <div class="section__header">
+            <a class="logo h1" href="{{ url_for('home') }}">Cologni<wbr>fornia</a>
+        </div>
+
+        <div class="footer__bottom-bar">
+            <p class="copyright">
+                <small>Copyright &copy; {{ "now"|date('Y') }} <a href="{{ url_for('home') }}">Colognifornia</a>. {{ __('footer.copyright.rights') }}</small>
+            </p>
+
+            <div class="footer__navbar">
+                <nav class="legal-nav">
+                    <ul>
+                        <li>
+                            <a href="{{ url_for('legal-notice') }}">{{ __('footer.legal-nav.legal-notice') }}</a>
+                        </li>
+                        <li>
+                            <a href="{{ url_for('privacy-policy') }}">{{ __('footer.legal-nav.privacy-policy') }}</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <p class="language-selector">
+                    <a href="{{ get_uri() ~ '?hl=de' }}">Deutsch</a> |
+                    <a href="{{ get_uri() ~ '?hl=en' }}">English</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>

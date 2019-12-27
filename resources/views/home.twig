@@ -1,0 +1,51 @@
+{% extends 'templates/_default.twig' %}
+
+{% block title %}{{ __('general.slogan') }}{% endblock %}
+
+{% block content %}
+    <section class="section hero-section">
+        <div class="container">
+            {% include 'partials/_header.twig' %}
+
+            <div class="card section__content">
+                <h2 class="h2 card__heading">{{ __('general.slogan') }}</h2>
+            </div>
+
+            {% include 'partials/_scroll-down.twig' %}
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h3 class="h3 section__header">{{ __('home.sections.about.heading') }}</h3>
+
+            <div class="card section__content">
+                <p class="h4 card__heading">
+                    <strong>{{ __('home.sections.about.text') }}</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h3 class="h3 section__header">{{ __('home.sections.services.heading') }}</h3>
+
+            <div class="card card--large section__content">
+                <p class="h4 card__heading card__text">
+                    <strong>{{ __('home.sections.services.text.web') }}</strong>
+                </p>
+
+                <p class="h4 card__heading card__text">
+                    <strong>{{ __('home.sections.services.text.help') }}</strong>
+                </p>
+
+                <p class="h4 card__heading card__text">
+                    <strong>{{ __('home.sections.services.text.open-source') }}</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    {% include 'partials/_contact.twig' %}
+{% endblock %}

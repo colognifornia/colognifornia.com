@@ -1,0 +1,169 @@
+{% extends 'templates/_default.twig' %}
+
+{% block title %}{{ __('legal.legal-notice.title') }}{% endblock %}
+{% block description %}{{ __('legal.legal-notice.description') }}{% endblock %}
+
+{% block content %}
+    <section class="section hero-section">
+        <div class="container">
+            {% include 'partials/_header.twig' %}
+
+            <div class="card section__content">
+                <h2 class="h2 card__heading">{{ __('legal.legal-notice.title') }}</h2>
+
+                <p class="card__text">{{ __('legal.legal-notice.description') }}</p>
+            </div>
+
+            {% include 'partials/_scroll-down.twig' %}
+        </div>
+    </section>
+
+    <section class="section page-content-section">
+        <div class="container">
+            <div class="card card--full-width">
+                <h3 class="h3 card__heading">{{ __('legal.legal-notice.information.heading') }}</h3>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.information.address.0') }}<br>
+                    {{ __('legal.legal-notice.information.address.1') }}<br>
+                    {{ __('legal.legal-notice.information.address.2') }}<br>
+                    {{ __('legal.legal-notice.information.address.3') }}<br>
+                    {{ __('legal.legal-notice.information.address.4') }}
+                </p>
+
+                <h4 class="h4 card__heading">{{ __('legal.legal-notice.contact.heading') }}</h4>
+
+                <p class="card__text">
+                    <i class="icon fas fa-envelope"></i>
+                    {{ __('legal.legal-notice.contact.email', {
+                        '%email%': '<a href="mailto:hello@colognifornia.com">hello@colognifornia.com</a>'
+                    })|raw }}
+                </p>
+
+                <p class="card__text">
+                    <i class="icon fas fa-phone"></i>
+                    {{ __('legal.legal-notice.contact.phone', {
+                        '%phone%': '<a href="tel:+4915738408326">+49 (0) 1573 84 08 326</a>'
+                    })|raw }}
+                </p>
+
+                <p class="card__text">
+                    <i class="fas fa-desktop"></i>
+                    {{ __('legal.legal-notice.contact.web', {
+                        '%web%': '<a href="/">https://colognifornia.com</a>'
+                    })|raw }}
+                </p>
+
+                <p class="card__text">
+                    <i class="icon fab fa-twitter"></i>
+                    {{ __('legal.legal-notice.contact.twitter', {
+                        '%twitter%': '<a href="https://twitter.com/colognifornia" target="_blank" rel="noopener">@colognifornia</a>'
+                    })|raw }}
+                </p>
+
+                <p class="card__text">
+                    <i class="icon fab fa-github"></i>
+                    {{ __('legal.legal-notice.contact.github', {
+                        '%github%': '<a href="https://github.com/colognifornia" target="_blank" rel="noopener">@colognifornia</a>'
+                    })|raw }}
+                </p>
+
+                <p class="card__text">
+                    <strong>{{ __('legal.legal-notice.contact.footnote') }}</strong>
+                </p>
+
+                <h4 class="h4 card__heading">{{ __('legal.legal-notice.tax.heading') }}</h4>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.tax.text') }}<br>
+                    {{ __('legal.legal-notice.tax.vat-id') }}
+                </p>
+
+                <h4 class="h4 card__heading">{{ __('legal.legal-notice.content.heading') }}</h4>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.content.address.0') }}<br>
+                    {{ __('legal.legal-notice.content.address.1') }}<br>
+                    {{ __('legal.legal-notice.content.address.2') }}<br>
+                    {{ __('legal.legal-notice.content.address.3') }}
+                </p>
+
+                <h3 class="h3 card__heading">{{ __('legal.legal-notice.dispute.heading') }}</h3>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.dispute.text.0') }}<br>
+                    <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr</a>.
+                </p>
+
+                <p class="card__text">{{ __('legal.legal-notice.dispute.text.1') }}</p>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.dispute.text.2') }}
+                </p>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.dispute.address.0') }}<br>
+                    {{ __('legal.legal-notice.dispute.address.1') }}<br>
+                    {{ __('legal.legal-notice.dispute.address.2') }}<br>
+                    {{ __('legal.legal-notice.dispute.address.3') }}
+                </p>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.dispute.phone') }}<br>
+                    {{ __('legal.legal-notice.dispute.fax') }}<br>
+                    {{ __('legal.legal-notice.dispute.email', {
+                        '%email%': '<a href="mailto:info@verbraucherschlichtung-nrw.de">info@verbraucherschlichtung-nrw.de</a>'
+                    })|raw }}<br>
+                    {{ __('legal.legal-notice.dispute.web', {
+                        '%web%': '<a href="https://www.verbraucherschlichtung-nrw.de" target="_blank" rel="noopener">https://www.verbraucherschlichtung-nrw.de</a>'
+                    })|raw }}<br>
+                </p>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.dispute.text.3') }}
+                    <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.adr.show" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr/<wbr>main/index.cfm?event=main.adr.show</a>.
+                </p>
+
+                <h3 class="h3 card__heading">{{ __('legal.legal-notice.disclaimer.heading') }}</h3>
+
+                <h4 class="h4 card__heading">{{ __('legal.legal-notice.contents.heading') }}</h4>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.contents.text.0') }}
+                </p>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.contents.text.1') }}
+                </p>
+
+                <h4 class="h4 card__heading">{{ __('legal.legal-notice.links.heading') }}</h4>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.links.text.0') }}
+                </p>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.links.text.1') }}
+                </p>
+
+                <h4 class="h4 card__heading">{{ __('legal.legal-notice.copyright.heading') }}</h4>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.copyright.text.0') }}
+                </p>
+
+                <p class="card__text">
+                    {{ __('legal.legal-notice.copyright.text.1') }}
+                </p>
+
+                <p>
+                    <small>
+                        {{ __('legal.legal-notice.source', {
+                            '%source%': '<a href="https://e-recht24.de" target="_blank" rel="noopener">e-recht24.de</a>'
+                        })|raw }}
+                    </small>
+                </p>
+            </div>
+        </div>
+    </section>
+{% endblock %}

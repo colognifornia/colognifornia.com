@@ -1,11 +1,11 @@
 .git
-src
 .editorconfig
 .gcloudignore
 .gitattributes
 .gitignore
 app.yaml
 cloudbuild.yaml
+cloudbuild_staging.yaml
 gulpfile.js
 LICENSE
 package.json
@@ -13,3 +13,6 @@ package-lock.json
 README.md
 node_modules
 .idea
+.htaccess
+!public/node_modules
+tmp
