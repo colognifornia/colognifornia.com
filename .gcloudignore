@@ -15,5 +15,4 @@ node_modules
 .idea
 .htaccess
 !public/node_modules
-php.ini
 tmp
