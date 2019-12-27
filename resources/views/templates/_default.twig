@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="canonical" href="{{ get_uri() }}">
+        <link rel="canonical" href="https://colognifornia.com{{ current_url() }}">
         <title>Colognifornia{% if _title is not empty %} - {{ _title }}{% endif %}</title>
         <meta name="description" content="{{ _description }}">
         {% if (is_current_url('privacy-policy') or is_current_url('legal-notice')) %}<meta name="robots" content="noindex, follow">{% endif %}
