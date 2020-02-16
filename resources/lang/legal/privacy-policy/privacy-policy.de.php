@@ -16,18 +16,18 @@ return [
     'general' => [
         'heading' => 'Allgemeine Hinweise',
         'text' => 'Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten
-        passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie
-        persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen
-        Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.',
+        passiert, wenn Sie diese oder jede andere Website von uns besuchen oder anderweitig Dienste von Colognifornia in Anspruch nehmen.
+        Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.
+        Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.',
     ],
 
     'data-recording' => [
-        'heading' => 'Datenerfassung auf dieser Website',
+        'heading' => 'Datenerfassung auf unseren Websites',
     ],
 
     'responsible' => [
-        'heading' => 'Wer ist verantwortlich für die Datenerfassung auf dieser Website?',
-        'text' => 'Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten
+        'heading' => 'Wer ist verantwortlich für die Datenerfassung auf unseren Websites?',
+        'text' => 'Die Datenverarbeitung auf unseren Websites erfolgt durch den Websitebetreiber. Dessen Kontaktdaten
         können Sie dem %link% dieser Website entnehmen.',
     ],
 
@@ -67,7 +67,7 @@ return [
     'analysis' => [
         'heading' => 'Analyse-Tools und Tools von Drittanbietern',
         'text' => [
-            'Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor
+            'Beim Besuch unserer Websites kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor
             allem mit Cookies und mit sogenannten Analyseprogrammen. Die Analyse Ihres Surf-Verhaltens erfolgt in
             der Regel anonym; das Surf-Verhalten kann nicht zu Ihnen zurückverfolgt werden.',
             'Sie können dieser Analyse widersprechen oder sie durch die Nichtbenutzung bestimmter Tools verhindern.
@@ -81,7 +81,7 @@ return [
     ],
 
     'hosting' => [
-        'heading' => 'Externes Hosting',
+        'heading' => 'Externes Hosting dieser Unternehmenswebsite',
         'text' => [
             'Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Personenbezogenen Daten, die auf
             dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a.
@@ -141,6 +141,38 @@ return [
                 'Google LLC (früher bekannt als Google Inc.),
                 1600 Amphitheatre Parkway, Mountain View, California 94043 USA.',
                 'Die abgeschlossenen EU-Mustervertragsklauseln können unter folgender Adresse abgerufen werden:',
+            ],
+        ],
+    ],
+
+    'hosting-dc' => [
+        'heading' => 'Externes Hosting der Website dev-community.de',
+        'text' => [
+            'Die Website dev-community.de wird bei einem externen Dienstleister gehostet (Hoster). Personenbezogenen Daten, die auf
+            dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a.
+            um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen,
+            Webseitenzugriffe und sonstige Daten, die über eine Website generiert werden, handeln.',
+            'Der Einsatz des Hosters erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und
+            bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten
+            Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).',
+            'Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten
+            erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.',
+        ],
+        'processing-contract' => [
+            'heading' => 'Abschluss eines Vertrages über Auftragsverarbeitung',
+            'text' => [
+                'Um die datenschutzkonforme Verarbeitung zu gewährleisten, haben wir einen Vertrag über
+                Auftragsverarbeitung mit unserem Hoster geschlossen.',
+            ],
+        ],
+        'transparency' => [
+            'heading' => 'Angaben zur Transparenz',
+            'text' => [
+                'Aus Transparenzgründen stellen wir Ihnen folgende Informationen über unseren Hoster
+                und den abgeschlossenen Auftragsverarbeitungsvertrag zur Verfügung:',
+                'Colognifornia verwendet Produkte und Dienstleistungen der Serverprofis GmbH für das Hosting dieser Website.',
+                'Der Auftragsverarbeiter, wie im abgeschlossenen Auftragsverarbeitungsvertrag angegeben, ist:',
+                'Serverprofis GmbH, Mondstr. 2-4, 85622 Feldkirchen, Deutschland.',
             ],
         ],
     ],
@@ -259,7 +291,7 @@ return [
             'Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre
             personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie
             dieser Datenschutzerklärung.',
-            'Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben.
+            'Wenn Sie unsere Websites benutzen, werden verschiedene personenbezogene Daten erhoben.
             Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende
             Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie
             und zu welchem Zweck das geschieht.',
@@ -272,7 +304,7 @@ return [
     'controller' => [
         'heading' => 'Hinweis zur verantwortlichen Stelle',
         'text' => [
-            'Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:',
+            'Die verantwortliche Stelle für die Datenverarbeitung auf unseren Websites sowie im Rahmen unserer Dienste ist:',
             'Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über
             die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)
             entscheidet.',
@@ -346,8 +378,8 @@ return [
     'encryption' => [
         'heading' => 'SSL- bzw. TLS-Verschlüsselung',
         'text' => [
-            'Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum
-            Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLSVerschlüsselung.
+            'Unsere Seiten nutzen aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum
+            Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung.
             Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von
             "http://" auf "https://" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.',
             'Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht
@@ -403,13 +435,13 @@ return [
     ],
 
     'data-recording-section' => [
-        'heading' => '4. Datenerfassung auf dieser Website',
+        'heading' => '4. Datenerfassung auf unseren Websites',
     ],
 
     'cookies' => [
         'heading' => 'Cookies',
         'text' => [
-            'Die Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen
+            'Unsere Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen
             Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver
             und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr
             Browser speichert.',
@@ -435,7 +467,7 @@ return [
     'log-files' => [
         'heading' => 'Server-Log-Dateien',
         'text' => [
-            'Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-
+            'Der Provider unserer Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-
             Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:',
             'Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.',
             'Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat

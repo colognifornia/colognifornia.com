@@ -17,18 +17,19 @@ return [
     'general' => [
         'heading' => 'General information',
         'text' => 'The following information will provide you with an easy to navigate overview of what will happen with your
-        personal data when you visit this website. The term "personal data" comprises all data that can be used to
-        personally identify you. For detailed information about the subject matter of data protection, please consult
+        personal data when you visit this or any other of our websites or when you otherwise use Colognifornia services.
+        The term "personal data" comprises all data that can be used to personally identify you.
+        For detailed information about the subject matter of data protection, please consult
         our Data Protection Declaration, which we have included beneath this copy.',
     ],
 
     'data-recording' => [
-        'heading' => 'Data recording on this website',
+        'heading' => 'Data recording on our websites',
     ],
 
     'responsible' => [
-        'heading' => 'Who is the responsible party for the recording of data on this website (i.e. the "controller")?',
-        'text' => 'The data on this website is processed by the operator of the website, whose contact information is available
+        'heading' => 'Who is the responsible party for the recording of data on our websites (i.e. the "controller")?',
+        'text' => 'The data on our websites is processed by the operator of the website, whose contact information is available
         under section "%link%" on this website.',
     ],
 
@@ -69,7 +70,7 @@ return [
     'analysis' => [
         'heading' => 'Analysis tools and tools provided by third parties',
         'text' => [
-            'There is a possibility that your browsing patterns will be statistically analysed when you visit this website.
+            'There is a possibility that your browsing patterns will be statistically analysed when you visit our websites.
             Such analyses are performed primarily with cookies and with what we refer to as analysis programmes. As a
             rule, the analyses of your browsing patterns are conducted anonymously; i.e. the browsing patterns cannot
             be traced back to you.',
@@ -84,7 +85,7 @@ return [
     ],
 
     'hosting' => [
-        'heading' => 'External Hosting',
+        'heading' => 'External Hosting of this company website',
         'text' => [
             'This website is hosted by an external service provider (host). Personal data collected on this website are
             stored on the servers of the host. These may include, but are not limited to, IP addresses, contact requests,
@@ -143,6 +144,38 @@ return [
                 'Google LLC (formerly known as Google Inc.),
                 1600 Amphitheatre Parkway, Mountain View, California 94043 USA.',
                 'The concluded EU Model Contract Clauses can be found at:',
+            ],
+        ],
+    ],
+
+    'hosting-dc' => [
+        'heading' => 'External Hosting of the website dev-community.de',
+        'text' => [
+            'The website dev-community.de is hosted by an external service provider (host). Personal data collected on this website are
+            stored on the servers of the host. These may include, but are not limited to, IP addresses, contact requests,
+            metadata and communications, contract information, contact information, names, web page access, and
+            other data generated through a web site.',
+            'The host is used for the purpose of fulfilling the contract with our potential and existing customers (Art. 6
+            para. 1 lit. b GDPR) and in the interest of secure, fast and efficient provision of our online services by a
+            professional provider (Art. 6 para. 1 lit. f GDPR).',
+            'Our host will only process your data to the extent necessary to fulfil its performance obligations and to
+            follow our instructions with respect to such data.',
+        ],
+        'processing-contract' => [
+            'heading' => 'Execution of a contract data processing agreement',
+            'text' => [
+                'In order to guarantee processing in compliance with data protection regulations, we have concluded an
+                order processing contract with our host.',
+            ],
+        ],
+        'transparency' => [
+            'heading' => 'Transparency disclosure',
+            'text' => [
+                'For the purpose of transparency, we provide you with the following information
+                about our host and the concluded order processing contract:',
+                'Colognifornia employs products and services from Serverprofis GmbH for hosting this website.',
+                'The order processor as stated in the concluded order processing contract is:',
+                'Serverprofis GmbH, Mondstr. 2-4, Feldkirchen, 85622, Germany.',
             ],
         ],
     ],
@@ -259,7 +292,7 @@ return [
             'The operators of this website and its pages take the protection of your personal data very seriously. Hence,
             we handle your personal data as confidential information and in compliance with the statutory data
             protection regulations and this Data Protection Declaration.',
-            'Whenever you use this website, a variety of personal information will be collected. Personal data comprises
+            'Whenever you use our websites, a variety of personal information will be collected. Personal data comprises
             data that can be used to personally identify you. This Data Protection Declaration explains which data we
             collect as well as the purposes we use this data for. It also explains how, and for which purpose the
             information is collected.',
@@ -271,7 +304,7 @@ return [
     'controller' => [
         'heading' => 'Information about the responsible party (referred to as the "controller" in the GDPR)',
         'text' => [
-            'The data processing controller on this website is:',
+            'The data processing controller on our websites and in the scope of our services is:',
             'The controller is the natural person or legal entity that single-handedly or jointly with others makes
             decisions as to the purposes of and resources for the processing of personal data (e.g. names, e-mail
             addresses, etc.).',
@@ -345,7 +378,7 @@ return [
         'heading' => 'SSL and/or TLS encryption',
         'text' => [
             'For security reasons and to protect the transmission of confidential content, such as purchase orders or
-            inquiries you submit to us as the website operator, this website uses either an SSL or a TLS encryption
+            inquiries you submit to us as the website operator, our websites use either an SSL or a TLS encryption
             programme. You can recognise an encrypted connection by checking whether the address line of the
             browser switches from "http://" to "https://" and also by the appearance of the lock icon in the browser line.',
             'If the SSL or TLS encryption is activated, data you transmit to us cannot be read by third parties.',
@@ -399,14 +432,14 @@ return [
     ],
 
     'data-recording-section' => [
-        'heading' => '4. Recording of data on this website',
+        'heading' => '4. Recording of data on our websites',
     ],
 
     'cookies' => [
         'heading' => 'Cookies',
         'text' => [
-            'In some instances, our website and its pages use so-called cookies. Cookies do not cause any damage to your
-            computer and do not contain viruses. The purpose of cookies is to make our website more user friendly,
+            'In some instances, our websites and its pages use so-called cookies. Cookies do not cause any damage to your
+            computer and do not contain viruses. The purpose of cookies is to make our websites more user friendly,
             effective and more secure. Cookies are small text files that are placed on your computer and stored by your
             browser.',
             'Most of the cookies we use are so-called "session cookies". They are automatically deleted after your leave
@@ -430,7 +463,7 @@ return [
     'log-files' => [
         'heading' => 'Server log files',
         'text' => [
-            'The provider of this website and its pages automatically collects and stores information in so-called server
+            'The provider of our websites and its pages automatically collects and stores information in so-called server
             log files, which your browser communicates to us automatically. The information comprises:',
             'This data is not merged with other data sources.',
             "This data is recorded on the basis of Art. 6 Sect. 1 lit. f GDPR. The operator of the website has a legitimate
