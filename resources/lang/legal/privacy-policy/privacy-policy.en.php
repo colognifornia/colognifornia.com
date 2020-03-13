@@ -480,6 +480,23 @@ return [
         ],
     ],
 
+    'contact-form' => [
+        'heading' => 'Contact form',
+        'text' => [
+            'If you submit inquiries to us via our contact form, the information provided in the contact form as well as any
+            contact information provided therein will be stored by us in order to handle your inquiry and in the event
+            that we have further questions. We will not share this information without your consent.',
+            'The processing of these data is based on Art. 6 para. 1 lit. b GDPR, if your request is related to the execution
+            of a contract or if it is necessary to carry out pre-contractual measures. In all other cases the processing is
+            based on our legitimate interest in the effective processing of the requests addressed to us (Art. 6 Para. 1 lit.
+            f DSGVO) or on your agreement (Art. 6 Para. 1 lit. a DSGVO) if this has been requested.',
+            'The information you have entered into the contact form shall remain with us until you ask us to eradicate the
+            data, revoke your consent to the archiving of data or if the purpose for which the information is being
+            archived no longer exists (e.g. after we have concluded our response to your inquiry). This shall be without
+            prejudice to any mandatory legal provisions – in particular retention periods.',
+        ],
+    ],
+
     'request' => [
         'heading' => 'Request by e-mail or telephone',
         'text' => [
@@ -494,6 +511,72 @@ return [
             consent to the storage or the purpose for the data storage lapses (e.g. after completion of your request).
             Mandatory statutory provisions - in particular statutory retention periods - remain unaffected.',
         ],
+    ],
+
+    'registration' => [
+        'heading' => 'Registration on our websites',
+        'text' => [
+            'You may have the option to register on our websites to be able to use additional website functions. We shall use
+            the data you enter only for the purpose of using the respective offer or service you have registered for. The
+            required information we request at the time of registration must be entered in full. Otherwise we shall reject
+            the registration.',
+            'To notify you of any important changes to the scope of our portfolio or in the event of technical
+            modifications, we shall use the e-mail address provided during the registration process.',
+            'We shall process the data entered during the registration process on the basis of your consent (Art. 6 Sect. 1
+            lit. a GDPR).',
+            'The data recorded during the registration process shall be stored by us as long as you are registered on this
+            website. Subsequently, such data shall be deleted. This shall be without prejudice to mandatory statutory
+            retention obligations.',
+        ],
+    ],
+
+    'contributions' => [
+        'heading' => 'The comment and posting function on the website dev-community.de',
+        'text' => [
+            'When you use the comment or posting function on the website dev-community.de, information on the time the comment or post was generated
+            and your e-mail-address and, if you are not posting anonymously, the user name you have selected will be
+            archived in addition to your comments or posts.',
+        ],
+        'ip-address' => [
+            'heading' => 'Storage of the IP address',
+            'text' => [
+                'Our comment and posting function stores the IP addresses of all users who enter comments or posts. Given that we do not
+                review the comments and posts prior to publishing them, we need this information in order to take action against the
+                author in the event of rights violations, such as defamation or propaganda.',
+            ],
+        ],
+        'subscriptions' => [
+            'heading' => 'Subscribing to comments or posts',
+            'text' => [
+                'As a user of this website, you have the option to subscribe to comments and posts or receive news and updates after you have registered.
+                You will receive a confirmation e-mail, the purpose of which is to verify whether you are the actual holder of the
+                provided e-mail address. You can deactivate this function at any time by following a respective link in the
+                information e-mails. The data entered in conjunction with subscriptions to comments or posts will be deleted in this
+                case. However, if you have communicated this information to us for other purposes and from a different
+                location (e.g. when subscribing to the newsletter), the data shall remain in our possession.',
+            ],
+        ],
+        'storage-duration' => [
+            'heading' => 'Storage period for comments or posts',
+            'text' => [
+                'Comments or posts and any affiliated information (e.g. the IP address) shall be stored by us and remain on this
+                website until the content the comment or post pertained to has been deleted in its entirety or if the comments or posts had
+                to be deleted for legal reasons (e.g. insulting comments or posts).',
+            ],
+        ],
+        'legal-basis' => [
+            'heading' => 'Legal basis',
+            'text' => [
+                'Comments and posts are stored on the basis of your consent (Art. 6 Sect. 1 lit. a GDPR). You have the right to revoke at
+                any time any consent you have already given us. To do so, all you are required to do is sent us an informal
+                notification via e-mail. This shall be without prejudice to the lawfulness of any data collection that occurred
+                prior to your revocation.',
+            ],
+        ],
+    ],
+
+    'e-commerce-section' => [
+        'heading' => '5. E-Commerce and payment service providers',
     ],
 
     'customer-data' => [

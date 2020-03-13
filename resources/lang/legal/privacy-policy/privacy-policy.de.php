@@ -484,6 +484,25 @@ return [
         ],
     ],
 
+    'contact-form' => [
+        'heading' => 'Kontaktformular',
+        'text' => [
+            'Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem
+            Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage
+            und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre
+            Einwilligung weiter.',
+            'Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit
+            der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen
+            erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der
+            effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer
+            Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde.',
+            'Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung
+            auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt
+            (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen –
+            insbesondere Aufbewahrungsfristen – bleiben unberührt.',
+        ],
+    ],
+
     'request' => [
         'heading' => 'Anfrage per E-Mail oder Telefon',
         'text' => [
@@ -500,6 +519,72 @@ return [
             (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen –
             insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.',
         ],
+    ],
+
+    'registration' => [
+        'heading' => 'Registrierung auf unseren Websites',
+        'text' => [
+            'Sie können sich auf unseren Websites ggf. registrieren, um zusätzliche Funktionen auf der Seite zu nutzen. Die dazu
+            eingegebenen Daten verwenden wir nur zum Zwecke der Nutzung des jeweiligen Angebotes oder Dienstes,
+            für den Sie sich registriert haben. Die bei der Registrierung abgefragten Pflichtangaben müssen vollständig
+            angegeben werden. Anderenfalls werden wir die Registrierung ablehnen.',
+            'Für wichtige Änderungen etwa beim Angebotsumfang oder bei technisch notwendigen Änderungen nutzen
+            wir die bei der Registrierung angegebene E-Mail-Adresse, um Sie auf diesem Wege zu informieren.',
+            'Die Verarbeitung der bei der Registrierung eingegebenen Daten erfolgt zum Zwecke der Durchführung des
+            durch die Registrierung begründeten Nutzungsverhältnisses und ggf. zur Anbahnung weiterer Verträge (Art.
+            6 Abs. 1 lit. b DSGVO).',
+            'Die bei der Registrierung erfassten Daten werden von uns gespeichert, solange Sie auf dieser Website
+            registriert sind und werden anschließend gelöscht. Gesetzliche Aufbewahrungsfristen bleiben unberührt.',
+        ],
+    ],
+
+    'contributions' => [
+        'heading' => 'Kommentar- und Beitragsfunktion auf der Website dev-community.de',
+        'text' => [
+            'Für die Kommentar- und Beitragsfunktion auf der Website dev-community.de werden neben Ihrem Kommentar bzw. Beitrag auch Angaben zum Zeitpunkt
+            der Erstellung des Kommentars oder Beitrags, Ihre E-Mail-Adresse und, wenn Sie nicht anonym posten, der von Ihnen
+            gewählte Nutzername gespeichert.',
+        ],
+        'ip-address' => [
+            'heading' => 'Speicherung der IP-Adresse',
+            'text' => [
+                'Unsere Kommentar- und Beitragsfunktion speichert die IP-Adressen der Nutzer, die Kommentare bzw. Beiträge verfassen. Da wir
+                Kommentare oder Beiträge auf dieser Website nicht vor der Freischaltung prüfen, benötigen wir diese Daten, um im Falle
+                von Rechtsverletzungen wie Beleidigungen oder Propaganda gegen den Verfasser vorgehen zu können.',
+            ],
+        ],
+        'subscriptions' => [
+            'heading' => 'Abonnieren von Kommentaren und Beiträgen',
+            'text' => [
+                'Als Nutzer der Seite können Sie nach einer Anmeldung Kommentare und Beiträge abonnieren bzw.
+                sich stets News und Aktualisierungen per E-Mail zukommen lassen. Sie erhalten eine
+                Bestätigungsemail, um zu prüfen, ob Sie der Inhaber der angegebenen E-Mail-Adresse sind. Sie können diese
+                Funktion jederzeit über einen Link in den Info-Mails abbestellen. Die im Rahmen des Abonnierens von
+                Kommentaren und Beiträgen eingegebenen Daten werden in diesem Fall gelöscht; wenn Sie diese Daten für andere
+                Zwecke und an anderer Stelle (z.B. Newsletterbestellung) an uns übermittelt haben, verbleiben die jedoch
+                bei uns.',
+            ],
+        ],
+        'storage-duration' => [
+            'heading' => 'Speicherdauer der Kommentare und Beiträge',
+            'text' => [
+                'Die Kommentare bzw. Beiträge und die damit verbundenen Daten (z.B. IP-Adresse) werden gespeichert und verbleiben
+                auf dieser Website, bis der kommentierte Inhalt bzw. Ihr Beitrag vollständig gelöscht wurde oder die Kommentare und Beiträge aus
+                rechtlichen Gründen gelöscht werden müssen (z.B. beleidigende Kommentare oder Beiträge).',
+            ],
+        ],
+        'legal-basis' => [
+            'heading' => 'Rechtsgrundlage',
+            'text' => [
+                'Die Speicherung der Kommentare und Beiträge erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie
+                können eine von Ihnen erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail
+                an uns. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.',
+            ],
+        ],
+    ],
+
+    'e-commerce-section' => [
+        'heading' => '5. E-Commerce und Zahlungsanbieter',
     ],
 
     'customer-data' => [
