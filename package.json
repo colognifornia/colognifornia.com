@@ -1,7 +1,6 @@
 {
   "private": true,
   "name": "@colognifornia/colognifornia.com",
-  "version": "0.2.0-alpha",
   "description": "The source code of colognifornia.com.",
   "scripts": {
     "start": "gulp",
