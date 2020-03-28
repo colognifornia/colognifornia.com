@@ -528,6 +528,58 @@ return [
             website. Subsequently, such data shall be deleted. This shall be without prejudice to mandatory statutory
             retention obligations.',
         ],
+
+        'github' => [
+            'heading' => 'Registration with GitHub',
+            'text' => [
+                'Instead of registering directly on this website, you may also have the option to register using GitHub.
+                The provider of this service is GitHub Inc., 88 Colin P. Kelly, San Francisco, CA 94110, USA.
+                The data collected may be transferred to the USA and other third countries.',
+                'If you decide to register via GitHub and click on the "GitHub login button",
+                you will be automatically connected to the GitHub platform. There, you can log in using
+                your username and password. As a result, your GitHub profile will be linked to our website or our services.
+                This link gives us access to the data you have archived with GitHub. These data comprise primarily the
+                following:',
+                'This information will be used to set up, provide and customise your account.
+                The registration via GitHub and the affiliated data processing transactions are implemented on
+                the basis of your consent (Art. 6 Sect. 1 lit. a GDPR). You may revoke this consent at any time, which shall
+                affect all future transactions thereafter.',
+                'For more information, please consult the GitHub Terms of Use and the GitHub Data Privacy Policies.
+                Use these links to access this information:',
+                '%privacy% and %terms%.',
+            ],
+            'list' => [
+                'your GitHub username und name',
+                'your GitHub profile picture',
+                'your email address on GitHub',
+            ],
+        ],
+
+        'google' => [
+            'heading' => 'Registration with Google',
+            'text' => [
+                'Instead of registering directly on this website, you may also have the option to register using Google.
+                The provider of this service is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.
+                The data collected may be transferred to the USA and other third countries.',
+                'If you decide to register via Google and click on the "Google login button",
+                you will be automatically connected to the Google platform. There, you can log in using
+                your username and password. As a result, your Google profile will be linked to our website or our services.
+                This link gives us access to the data you have archived with Google. These data comprise primarily the
+                following:',
+                'This information will be used to set up, provide and customise your account.
+                The registration via Google and the affiliated data processing transactions are implemented on
+                the basis of your consent (Art. 6 Sect. 1 lit. a GDPR). You may revoke this consent at any time, which shall
+                affect all future transactions thereafter.',
+                'For more information, please consult the Google Terms of Use and the Google Data Privacy Policies.
+                Use these links to access this information:',
+                '%privacy% and %terms%.',
+            ],
+            'list' => [
+                'your Google username und name',
+                'your Google profile picture',
+                'your email address on Google',
+            ],
+        ],
     ],
 
     'contributions' => [

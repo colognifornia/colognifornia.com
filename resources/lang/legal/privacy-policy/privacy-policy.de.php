@@ -536,6 +536,56 @@ return [
             'Die bei der Registrierung erfassten Daten werden von uns gespeichert, solange Sie auf dieser Website
             registriert sind und werden anschließend gelöscht. Gesetzliche Aufbewahrungsfristen bleiben unberührt.',
         ],
+
+        'github' => [
+            'heading' => 'Registrierung mit GitHub',
+            'text' => [
+                'Statt einer direkten Registrierung auf unseren Websites können Sie sich ggf. mit GitHub registrieren.
+                Anbieter dieses Dienstes ist die GitHub Inc., 88 Colin P. Kelly, San Francisco, CA 94110, USA. Die
+                erfassten Daten werden u.U. in die USA und in andere Drittländer übertragen.',
+                'Wenn Sie sich für die Registrierung mit GitHub entscheiden und auf den entsprechenden "GitHub-Anmeldebutton" klicken,
+                werden Sie automatisch auf die Plattform von GitHub weitergeleitet. Dort können Sie sich mit Ihren Nutzungsdaten anmelden.
+                Dadurch wird Ihr GitHub-Profil mit unserer Website bzw. unseren Diensten verknüpft. Durch diese Verknüpfung erhalten
+                wir Zugriff auf Ihre bei GitHub hinterlegten Daten. Dies sind vor allem:',
+                'Diese Daten werden zur Einrichtung, Bereitstellung und Personalisierung Ihres Accounts genutzt.
+                Die Registrierung mit GitHub und die damit verbundenen Datenverarbeitungsvorgänge erfolgen
+                auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Diese Einwilligung können Sie jederzeit mit
+                Wirkung für die Zukunft widerrufen.',
+                'Weitere Informationen finden Sie in den GitHub-Nutzungsbedingungen und den GitHub-Datenschutzbestimmungen.
+                Diese finden Sie unter:',
+                '%privacy% und %terms%.',
+            ],
+            'list' => [
+                'Ihr GitHub-Benutzername und Name',
+                'Ihr GitHub-Profilbild',
+                'Ihre bei GitHub hinterlegte E-Mail-Adresse',
+            ],
+        ],
+
+        'google' => [
+            'heading' => 'Registrierung mit Google',
+            'text' => [
+                'Statt einer direkten Registrierung auf unseren Websites können Sie sich ggf. mit Google registrieren.
+                Anbieter dieses Dienstes ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Die
+                erfassten Daten werden u.U. in die USA und in andere Drittländer übertragen.',
+                'Wenn Sie sich für die Registrierung mit Google entscheiden und auf den entsprechenden "Google-Anmeldebutton" klicken,
+                werden Sie automatisch auf die Plattform von Google weitergeleitet. Dort können Sie sich mit Ihren Nutzungsdaten anmelden.
+                Dadurch wird Ihr Google-Profil mit unserer Website bzw. unseren Diensten verknüpft. Durch diese Verknüpfung erhalten
+                wir Zugriff auf Ihre bei Google hinterlegten Daten. Dies sind vor allem:',
+                'Diese Daten werden zur Einrichtung, Bereitstellung und Personalisierung Ihres Accounts genutzt.
+                Die Registrierung mit Google und die damit verbundenen Datenverarbeitungsvorgänge erfolgen
+                auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Diese Einwilligung können Sie jederzeit mit
+                Wirkung für die Zukunft widerrufen.',
+                'Weitere Informationen finden Sie in den Google-Nutzungsbedingungen und den Google-Datenschutzbestimmungen.
+                Diese finden Sie unter:',
+                '%privacy% und %terms%.',
+            ],
+            'list' => [
+                'Ihr Google-Benutzername und Name',
+                'Ihr Google-Profilbild',
+                'Ihre bei Google hinterlegte E-Mail-Adresse',
+            ],
+        ],
     ],
 
     'contributions' => [
