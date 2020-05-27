@@ -244,7 +244,7 @@ return [
         ],
     ],
 
-    'external-data-processing' => [
+    'external-customer-data-processing' => [
         'heading' => 'Externe Kundendatenverwaltung und Buchführung',
         'text' => [
             'Kunden- sowie Vertragsdaten, wie auch unter dem Abschnitt "Verarbeiten von Daten (Kunden- und Vertragsdaten)"
@@ -277,6 +277,69 @@ return [
                 'Der Auftragsverarbeiter, wie im abgeschlossenen Auftragsverarbeitungsvertrag angegeben, ist:',
                 'Haufe Lexware GmbH & Co. KG, Munzinger Straße 9, 79111 Freiburg',
                 'Der abgeschlossenene Auftragsverarbeitungsvertrag kann unter folgender Adresse abgerufen werden:',
+            ],
+        ],
+    ],
+
+    'external-processing' => [
+        'heading' => 'Sonstige externe Datenverarbeitung',
+        'text' => [
+            'Für alle anderen Anwendungen der Datenübertragung und externen Verarbeitung, die in dieser Datenschutzerklärung beschrieben werden,
+            gelten die folgenden Informationen, soweit nicht anders angegeben:',
+            'Der Einsatz des Dienstleisters erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und
+            bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten
+            Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).',
+            'Unser Dienstleister wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten
+            erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.',
+        ],
+        'processing-contract' => [
+            'heading' => 'Abschluss eines Vertrages über Auftragsverarbeitung',
+            'text' => [
+                'Um die datenschutzkonforme Verarbeitung zu gewährleisten, haben wir einen Vertrag über
+                Auftragsverarbeitung mit unserem Dienstleister geschlossen.',
+            ],
+        ],
+        'privacy-shield' => [
+            'heading' => 'EU-U.S. Datenschutzschutzzertifikat (Privacy Shield)',
+            'text' => [
+                'Unser Dienstleister hat ein gültiges %link%.',
+            ],
+            'quote' => [
+                'content' => '"Das EU-U.S.- und das Schweiz-U.S.-Datenschutzzertifikat und der damit verbundene Rechtsrahmen (Privacy Shield) wurde vom US-Handelsministerium
+                bzw. der Europäischen Kommission und der Schweizer Verwaltung entwickelt, um Unternehmen auf beiden Seiten des
+                Atlantiks einen Mechanismus zur Verfügung zu stellen, mit dem sie die Datenschutzvorschriften bei der Übermittlung
+                personenbezogener Daten aus der Europäischen Union und der Schweiz in die Vereinigten Staaten zur Unterstützung
+                des transatlantischen Handels einhalten können." (aus dem Englischen übersetzt)',
+            ],
+        ],
+        'model-contract' => [
+            'heading' => 'Abschluss von EU-Mustervertragsklauseln',
+            'text' => [
+                'Wir haben mit unserem Dienstleister sogenannte EU-Mustervertragsklauseln abgeschlossen,
+                um bei der Verarbeitung von Daten gemäß dieser Datenschutzerklärung
+                angemessene Garantien in Bezug auf den Schutz der Privatsphäre
+                und der Grundrechte sowie der Freiheiten des Einzelnen zu gewährleisten,
+                wie es auch im Vertrag festgelegt ist.',
+                'Dies sind Standardvertragsklauseln im Sinne von Artikel 26 Absatz 2 der Richtlinie 95/46/EG für die Übermittlung personenbezogener Daten
+                an Auftragsverarbeiter in Drittländern, die kein angemessenes Datenschutzniveau gewährleisten.',
+            ],
+        ],
+        'transparency' => [
+            'heading' => 'Angaben zur Transparenz',
+            'text' => [
+                'Aus Transparenzgründen stellen wir Ihnen folgende Informationen über unseren Dienstleister
+                und den abgeschlossenen Auftragsverarbeitungsvertrag sowie die EU-Mustervertragsklauseln zur Verfügung:',
+                'Colognifornia verwendet Produkte und Dienstleistungen der Google Cloud Platform (GCP) für verschiedene Anwendungen der Datenverarbeitung.',
+                'Der Auftragsverarbeiter, wie im abgeschlossenen Auftragsverarbeitungsvertrag angegeben, ist:',
+                'Google LLC (früher bekannt als Google Inc.), Google Ireland Limited,
+                Google Asia Pacific Pte. Ltd. oder jedes andere Unternehmen,
+                das direkt oder indirekt von Google LLC (wie zutreffend "Google") kontrolliert wird
+                oder unter gemeinsamer Führung mit Google LLC steht.',
+                'Der abgeschlossenene Auftragsverarbeitungsvertrag kann unter folgender Adresse abgerufen werden:',
+                'Die Vertragspartei, die mit uns die EU-Mustervertragsklauseln vereinbart hat, ist, wie im Vertrag angegeben:',
+                'Google LLC (früher bekannt als Google Inc.),
+                1600 Amphitheatre Parkway, Mountain View, California 94043 USA.',
+                'Die abgeschlossenen EU-Mustervertragsklauseln können unter folgender Adresse abgerufen werden:',
             ],
         ],
     ],
@@ -594,6 +657,20 @@ return [
             'Für die Kommentar- und Beitragsfunktion auf der Website dev-community.de werden neben Ihrem Kommentar bzw. Beitrag auch Angaben zum Zeitpunkt
             der Erstellung des Kommentars oder Beitrags, Ihre E-Mail-Adresse und, wenn Sie nicht anonym posten, der von Ihnen
             gewählte Nutzername gespeichert.',
+        ],
+        'external-processing' => [
+            'heading' => 'Externe Verarbeitung der Kommentar- und Beitragsinhalte',
+            'text' => [
+                'Zum Zeitpunkt der Erstellung eines Kommentars oder Beitrags auf der Website dev-community.de kann es unter Umständen zu einer
+                weiterführenden Übermittlung sowie externen Verarbeitung der Kommentar- bzw. Beitragsinhalte kommen.
+                Der Zweck dieser Verarbeitung ist eine möglichst einheitliche, gut lesbare Darstellung Ihres Kommentars oder Beitrags.',
+                'Um eine schnellstmögliche Verarbeitung zu gewährleisten, wird dabei auf externe Hostinganbieter bzw. Server zurückgegriffen,
+                welche aus dieser Datenschutzerklärung unter dem Punkt "Hosting und Datenverarbeitung durch externe Dienstleister" hervorgehen.',
+                'Ihre Daten werden während des Verarbeitungsprozesses temporär (für max. wenige Sekunden) auf diesen Servern gespeichert
+                und anschließend sofort wieder gelöscht. Zudem erfolgt die Datenübermittlung ausschließlich verschlüsselt.',
+                'Personenbezogene Daten, soweit diese nicht in dem von Ihnen verfassten Kommentar- bzw. Beitragstext enthalten sind,
+                werden nicht übermittelt.'
+            ],
         ],
         'ip-address' => [
             'heading' => 'Speicherung der IP-Adresse',

@@ -190,7 +190,7 @@ return [
             of a contract or if it is necessary to carry out pre-contractual measures. In all other cases, the processing is
             based on your consent (Article 6 (1) a GDPR) and/or on our legitimate interests (Article 6 (1) (f) GDPR), since
             we have a legitimate interest in the effective processing of requests addressed to us.',
-            'Our host will only process your data to the extent necessary to fulfil its performance obligations and to
+            'Our service provider will only process your data to the extent necessary to fulfil its performance obligations and to
             follow our instructions with respect to such data.',
         ],
         'processing-contract' => [
@@ -203,7 +203,7 @@ return [
         'privacy-shield' => [
             'heading' => 'EU-U.S. Privacy Shield Certificate',
             'text' => [
-                'Our host has a valid %link%.',
+                'Our service provider has a valid %link%.',
             ],
             'quote' => [
                 'content' => '"The EU-U.S. and Swiss-U.S. Privacy Shield Frameworks were designed by the U.S. Department of Commerce,
@@ -245,7 +245,7 @@ return [
         ],
     ],
 
-    'external-data-processing' => [
+    'external-customer-data-processing' => [
         'heading' => 'External customer data management and accounting',
         'text' => [
             'Customer and contract data as also described under the section "Processing of data (customer and contract data)"
@@ -259,7 +259,7 @@ return [
             commercial and tax law regulations for the storage of contract data (Art. 6 para. 1 lit. c GDPR).
             Furthermore, the person responsible has a legitimate interest according to Art. 6 para. 1 lit. f GDPR
             in an efficient order or contract processing with its customers.',
-            'Our host will only process your data to the extent necessary to
+            'Our service provider will only process your data to the extent necessary to
             fulfil its performance obligations and to follow our instructions with respect to such data.',
         ],
         'processing-contract' => [
@@ -278,6 +278,68 @@ return [
                 'The order processor as stated in the concluded order processing contract is:',
                 'Haufe Lexware GmbH & Co. KG, Munzinger Straße 9, Freiburg, 79111, Germany',
                 'The concluded order processing contract can be found at:',
+            ],
+        ],
+    ],
+
+    'external-processing' => [
+        'heading' => 'Other external processing',
+        'text' => [
+            'For any other applications of data transmission and external processing, which are described in this privacy policy,
+            the following information applies as not otherwise noted:',
+            'The external service provider is used for the purpose of fulfilling the contract with our potential and existing customers (Art. 6
+            para. 1 lit. b GDPR) and in the interest of secure, fast and efficient provision of our online services by a
+            professional provider (Art. 6 para. 1 lit. f GDPR).',
+            'Our service provider will only process your data to the extent necessary to fulfil its performance obligations and to
+            follow our instructions with respect to such data.',
+        ],
+        'processing-contract' => [
+            'heading' => 'Execution of a contract data processing agreement',
+            'text' => [
+                'In order to guarantee processing in compliance with data protection regulations, we have concluded an
+                order processing contract with our service provider.',
+            ],
+        ],
+        'privacy-shield' => [
+            'heading' => 'EU-U.S. Privacy Shield Certificate',
+            'text' => [
+                'Our service provider has a valid %link%.',
+            ],
+            'quote' => [
+                'content' => '"The EU-U.S. and Swiss-U.S. Privacy Shield Frameworks were designed by the U.S. Department of Commerce,
+                and the European Commission and Swiss Administration, respectively,
+                to provide companies on both sides of the Atlantic with a mechanism to comply with data protection
+                requirements when transferring personal data from the European Union
+                and Switzerland to the United States in support of transatlantic commerce."',
+            ],
+        ],
+        'model-contract' => [
+            'heading' => 'Execution of EU Model Contract Clauses',
+            'text' => [
+                'We have concluded so-called EU Model Contract Clauses with our service provider
+                in order to adduce adequate safeguards, when processing data according to this Data Protection Declaration,
+                with respect to the protection of privacy and fundamental rights
+                and freedoms of individuals, as also stated in the contract.',
+                'These are Standard Contractual Clauses
+                for the purposes of Article 26(2) of Directive 95/46/EC for the transfer of personal data
+                to processors established in third countries which do not ensure an adequate level of data protection.',
+            ],
+        ],
+        'transparency' => [
+            'heading' => 'Transparency disclosure',
+            'text' => [
+                'For the purpose of transparency, we provide you with the following information
+                about our service provider and the concluded order processing contract as well as the EU Model Contract Clauses:',
+                'Colognifornia employs products and services from Google Cloud Platform (GCP) for various applications of data processing.',
+                'The order processor as stated in the concluded order processing contract is:',
+                'Google LLC (formerly known as Google Inc.), Google Ireland Limited, Google Asia Pacific Pte. Ltd.,
+                or any other entity that directly or indirectly controls, is controlled by,
+                or is under common control with Google LLC (as applicable, "Google").',
+                'The concluded order processing contract can be found at:',
+                'The party which has agreed on the EU Model Contract Clauses with us is, as stated in the contract:',
+                'Google LLC (formerly known as Google Inc.),
+                1600 Amphitheatre Parkway, Mountain View, California 94043 USA.',
+                'The concluded EU Model Contract Clauses can be found at:',
             ],
         ],
     ],
@@ -588,6 +650,20 @@ return [
             'When you use the comment or posting function on the website dev-community.de, information on the time the comment or post was generated
             and your e-mail-address and, if you are not posting anonymously, the user name you have selected will be
             archived in addition to your comments or posts.',
+        ],
+        'external-processing' => [
+            'heading' => 'External processing of comment and post contents',
+            'text' => [
+                'At the time of the creation of a comment or post on the website dev-community.de, it is possible that
+                the comment or post content may be further transmitted and processed externally. The purpose of this processing is to ensure
+                that your comment or post is presented as uniformly and legibly as possible.',
+                'In order to guarantee the fastest possible processing, external hosting providers or servers are used,
+                which can be found in this privacy policy under the heading "Hosting and processing by external service providers".',
+                'Your data will be stored temporarily (for max. a few seconds) on these servers during the processing
+                and then immediately deleted again. Furthermore, the data transmission is exclusively encrypted.',
+                'Personal data, as far as these are not contained in the comment or post text written by you,
+                are not transmitted.'
+            ],
         ],
         'ip-address' => [
             'heading' => 'Storage of the IP address',
