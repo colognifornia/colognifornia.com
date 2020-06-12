@@ -703,8 +703,34 @@ return [
         ],
     ],
 
+    'tools-section' => [
+        'heading' => '5. Plug-ins and Tools',
+    ],
+
+    'google-recaptcha' => [
+        'heading' => 'Google reCAPTCHA on the website dev-community.de',
+        'text' => [
+            'We use "Google reCAPTCHA" (hereinafter referred to as "reCAPTCHA") on the website dev-community.de. The provider is
+            Google Ireland Limited ("Google"), Gordon House, Barrow Street, Dublin 4, Ireland.',
+            'The purpose of reCAPTCHA is to determine whether data entered on this website (e.g. information entered
+            into a contact form) is being provided by a human user or by an automated program. To determine this,
+            reCAPTCHA analyses the behaviour of the website visitors based on a variety of parameters. This analysis is
+            triggered automatically as soon as the website visitor enters the site. For this analysis, reCAPTCHA
+            evaluates a variety of data (e.g. IP address, time the website visitor spent on the site or cursor movements
+            initiated by the user). The data tracked during such analyses are forwarded to Google.',
+            'reCAPTCHA analyses run entirely in the background. Website visitors are not alerted that an analysis is
+            underway.',
+            'The data is processed on the basis of Art. 6 Sect. 1 lit. f GDPR. It is in the website operators legitimate
+            interest, to protect the operator’s web content against misuse by automated industrial espionage systems
+            and against SPAM.',
+            'For more information about Google reCAPTCHA please refer to the Google Data Privacy Declaration and
+            Terms Of Use under the following links:',
+            '%privacy% and %terms%.',
+        ],
+    ],
+
     'e-commerce-section' => [
-        'heading' => '5. E-Commerce and payment service providers',
+        'heading' => '6. E-Commerce and payment service providers',
     ],
 
     'customer-data' => [
