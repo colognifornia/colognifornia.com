@@ -768,6 +768,18 @@ return [
         ],
     ],
 
+    'online-marketing-section' => [
+        'heading' => '7. Online-Marketing und Partnerprogramme',
+    ],
+
+    'affiliate-links' => [
+        'heading' => 'Provisions-/Werbe-Links',
+        'text' => [
+            'Die mit Sternchen (*) gekennzeichneten Links sind sogenannte Provisions- bzw. Werbe-Links. Wenn Sie auf einen solchen Link klicken und über diesen Link einkaufen, bekommen wir von dem betreffenden Online-Shop oder Anbieter eine Provision. Für Sie verändert sich der Preis nicht.',
+            'Beim Klick auf Provisions-/Werbe-Links gelangen Sie zu den Seiten der jeweiligen fremden Anbieter. Dort gelten die Geschäftsbedingungen und die Richtlinien zur Datenverarbeitung der jeweiligen Anbieter.',
+        ],
+    ],
+
     'source' => 'Quelle: %source% (bearbeitet und ergänzt)',
 
 ];

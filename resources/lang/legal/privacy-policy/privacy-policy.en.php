@@ -759,6 +759,19 @@ return [
         ],
     ],
 
+
+    'online-marketing-section' => [
+        'heading' => '7. Online marketing und partner programs',
+    ],
+
+    'affiliate-links' => [
+        'heading' => 'Commission/advertising links',
+        'text' => [
+            'The links marked with an asterisk (*) are so-called commission or advertising links. If you click on such a link and make a purchase via this link, we will receive a commission from the online shop or provider concerned. For you the price does not change.',
+            'By clicking on commission/advertising links, you will be directed to the pages of the respective external providers. There the terms and conditions as well as the data processing policies of the respective providers apply.',
+        ],
+    ],
+
     'source' => 'Source: %source% (edited and supplemented)',
 
 ];
