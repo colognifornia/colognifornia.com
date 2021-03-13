@@ -31,8 +31,16 @@ return [
         'vat-id' => 'DE325678142',
     ],
 
+    'business-registration' => [
+        'heading' => 'Business Registration',
+        'text' => [
+            'The business registration according to § 34c GewO was granted on 08/06/2019
+            by the "Amt für öffentliche Ordnung" ("Gewerbeabteilung") of the City of Cologne ("Stadt Köln").',
+        ],
+    ],
+
     'content' => [
-        'heading' => 'Responsible for the content according to § 55(2) RStV',
+        'heading' => 'Editorial responsible',
         'address' => [
             'Jasper Raddatz',
             'Salzburger Weg 47',

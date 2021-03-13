@@ -31,8 +31,16 @@ return [
         'vat-id' => 'DE325678142',
     ],
 
+    'business-registration' => [
+        'heading' => 'Gewerbeanmeldung',
+        'text' => [
+            'Die Gewerbeanmeldung nach § 34c GewO wurde am 06.08.2019
+            durch das Amt für öffentliche Ordnung (Gewerbeabteilung) der Stadt Köln erteilt.',
+        ],
+    ],
+
     'content' => [
-        'heading' => 'Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV',
+        'heading' => 'Redaktionell Verantwortlicher',
         'address' => [
             'Jasper Raddatz',
             'Salzburger Weg 47',

@@ -384,6 +384,34 @@ return [
         ],
     ],
 
+    'storage-duration' => [
+        'heading' => 'Storage duration',
+        'text' => [
+            'Unless a more specific storage period has been specified within this privacy policy,
+            your personal data will remain with us until the purpose for the data processing ceases to apply.
+            If you assert a legitimate request for deletion or revoke consent for data processing,
+            your data will be deleted, unless we have other legally permissible reasons for storing your
+            personal data (e.g. retention periods under tax law or commercial law); in the
+            latter case, the deletion will take place after these reasons cease to apply.',
+        ],
+    ],
+
+    'data-transfer-third-countries' => [
+        'heading' => 'Note on data transfer to the USA and other third countries',
+        'text' => [
+            'Among other things, our websites includes tools from companies based in the USA
+            or other third countries that are not secure under data protection law.
+            If these tools are active, your personal personal data may be transferred to
+            these third countries and processed there. We would like to point out that
+            no level of data protection comparable to that in the EU can be guaranteed in these countries.
+            For example, U.S. companies are obligated to release personal data to security
+            authorities without you as the data subject being able to take legal action against this.
+            It can therefore not be ruled out that U.S. authorities (e.g. intelligence services)
+            may process, evaluate and use your data stored on U.S. servers for surveillance purposes.
+            We have no influence on these processing activities.',
+        ],
+    ],
+
     'consent-revocation' => [
         'heading' => 'Revocation of your consent to the processing of data',
         'text' => [

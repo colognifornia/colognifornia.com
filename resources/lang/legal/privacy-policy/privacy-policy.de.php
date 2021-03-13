@@ -385,6 +385,33 @@ return [
         ],
     ],
 
+    'storage-duration' => [
+        'heading' => 'Speicherdauer',
+        'text' => [
+            'Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben
+            Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein
+            berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen,
+            werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer
+            personenbezogenen Daten haben (z.B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im
+            letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.',
+        ],
+    ],
+
+    'data-transfer-third-countries' => [
+        'heading' => 'Hinweis zur Datenweitergabe in die USA und sonstige Drittstaaten',
+        'text' => [
+            'Auf unserer Website sind unter anderem Tools von Unternehmen mit Sitz in den USA oder sonstigen
+            datenschutzrechtlich nicht sicheren Drittstaaten eingebunden. Wenn diese Tools aktiv sind, können Ihre
+            personenbezogene Daten in diese Drittstaaten übertragen und dort verarbeitet werden. Wir weisen darauf
+            hin, dass in diesen Ländern kein mit der EU vergleichbares Datenschutzniveau garantiert werden kann.
+            Beispielsweise sind US-Unternehmen dazu verpflichtet, personenbezogene Daten an Sicherheitsbehörden
+            herauszugeben, ohne dass Sie als Betroffener hiergegen gerichtlich vorgehen könnten. Es kann daher nicht
+            ausgeschlossen werden, dass US-Behörden (z.B. Geheimdienste) Ihre auf US-Servern befindlichen Daten zu
+            Überwachungszwecken verarbeiten, auswerten und dauerhaft speichern. Wir haben auf diese
+            Verarbeitungstätigkeiten keinen Einfluss.',
+        ],
+    ],
+
     'consent-revocation' => [
         'heading' => 'Widerruf Ihrer Einwilligung zur Datenverarbeitung',
         'text' => [

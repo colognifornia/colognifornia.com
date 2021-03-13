@@ -9,8 +9,8 @@
   "author": "JR Cologne",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
@@ -32,6 +32,6 @@
   },
   "homepage": "https://github.com/colognifornia/colognifornia.com#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0"
+    "@fortawesome/fontawesome-free": "^5.15.2"
   }
 }
