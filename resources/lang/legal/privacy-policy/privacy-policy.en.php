@@ -173,9 +173,9 @@ return [
             'text' => [
                 'For the purpose of transparency, we provide you with the following information
                 about our host and the concluded order processing contract:',
-                'Colognifornia employs products and services from Serverprofis GmbH for hosting this website.',
+                'Colognifornia employs products and services from netcup GmbH for hosting this website.',
                 'The order processor as stated in the concluded order processing contract is:',
-                'Serverprofis GmbH, Mondstr. 2-4, Feldkirchen, 85622, Germany.',
+                'netcup GmbH, Daimlerstr. 25, Karlsruhe, 76185, Germany.',
             ],
         ],
     ],

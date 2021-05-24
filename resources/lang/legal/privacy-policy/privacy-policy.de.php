@@ -170,9 +170,9 @@ return [
             'text' => [
                 'Aus Transparenzgründen stellen wir Ihnen folgende Informationen über unseren Hoster
                 und den abgeschlossenen Auftragsverarbeitungsvertrag zur Verfügung:',
-                'Colognifornia verwendet Produkte und Dienstleistungen der Serverprofis GmbH für das Hosting dieser Website.',
+                'Colognifornia verwendet Produkte und Dienstleistungen der netcup GmbH für das Hosting dieser Website.',
                 'Der Auftragsverarbeiter, wie im abgeschlossenen Auftragsverarbeitungsvertrag angegeben, ist:',
-                'Serverprofis GmbH, Mondstr. 2-4, 85622 Feldkirchen, Deutschland.',
+                'netcup GmbH, Daimlerstr. 25, 76185 Karlsruhe, Deutschland.',
             ],
         ],
     ],
