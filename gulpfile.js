@@ -22,7 +22,7 @@
 const gulp                    = require('gulp'),
     sourcemaps                = require('gulp-sourcemaps'),
     plumber                   = require('gulp-plumber'),
-    sass                      = require('gulp-sass'),
+    sass                      = require('gulp-sass')(require('sass')),
     autoprefixer              = require('gulp-autoprefixer'),
     minifyCss                 = require('gulp-clean-css'),
     babel                     = require('gulp-babel'),
