@@ -18,9 +18,14 @@ class DetectAndSetUserLanguage
 {
 
     /**
-     * @var
+     * @var Translator
      */
-    protected $translator;
+    protected Translator $translator;
+
+    /**
+     * @var Config 
+     */
+    protected Config $config;
 
     /**
      * DetectAndSetUserLanguage constructor.
