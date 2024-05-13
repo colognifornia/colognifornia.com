@@ -34,8 +34,7 @@ return [
     'business-registration' => [
         'heading' => 'Gewerbeanmeldung',
         'text' => [
-            'Die Gewerbeanmeldung nach § 34c GewO wurde am 06.08.2019
-            durch das Amt für öffentliche Ordnung (Gewerbeabteilung) der Stadt Köln erteilt.',
+            'Die Gewerbeanmeldung nach § 15 Abs. 1 GewO wurde am 06.08.2019 durch das Amt für öffentliche Ordnung (Gewerbeabteilung) der Stadt Köln erteilt.',
         ],
     ],
 

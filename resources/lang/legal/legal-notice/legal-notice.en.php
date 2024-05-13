@@ -34,7 +34,7 @@ return [
     'business-registration' => [
         'heading' => 'Business Registration',
         'text' => [
-            'The business registration according to § 34c GewO was granted on 08/06/2019
+            'The business registration according to § 15 Abs. 1 GewO was granted on 08/06/2019
             by the "Amt für öffentliche Ordnung" ("Gewerbeabteilung") of the City of Cologne ("Stadt Köln").',
         ],
     ],
