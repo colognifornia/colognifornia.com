@@ -76,8 +76,8 @@ return [
             'You can reach our central contact point for users and authorities in accordance with Art. 11, 12 DSA as follows:',
             'The languages available for contact are: German, English.'
         ],
-        'email' => 'E-Mail: %email%',
-        'phone' => 'Telefon: %phone%',
+        'email' => 'Email: %email%',
+        'phone' => 'Phone: %phone%',
     ],
     
     'source' => 'Source: %source% (edited and supplemented)',
