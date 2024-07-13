@@ -1,13 +1,13 @@
 <?php
 
-namespace Colognifornia\Web\Views\Twig\Extensions\SymfonyTranslatorTwigExtension\Functions\Contracts;
+namespace Colognifornia\Web\Views\Twig\Extensions\Contracts;
 
 use Twig\TwigFunction;
 
 /**
  * Interface FunctionInterface
  *
- * @package Colognifornia\Web\Views\Twig\Extensions\SymfonyTranslatorTwigExtension\Functions\Contracts
+ * @package Colognifornia\Web\Views\Twig\Extensions\Contracts
  */
 interface FunctionInterface
 {

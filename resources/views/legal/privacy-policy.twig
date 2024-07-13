@@ -9,7 +9,7 @@
             {% include 'partials/_header.twig' %}
 
             <div class="card section__content card--large">
-                <h2 class="h2 card__heading">{{ __('legal.privacy-policy.title') }}</h2>
+                <h1 class="h2 card__heading">{{ __('legal.privacy-policy.title') }}</h1>
 
                 <p class="card__text">
                     {{ __('legal.privacy-policy.description') }}
@@ -32,7 +32,9 @@
 
     <section class="section page-content-section">
         <div class="container">
-            <div class="card card--full-width">
+            <div class="card card--full-width content-flow">
+                {{ get_markdown_content('legal/privacy-policy') | markdown_to_html }}
+
                 <h3 class="h3 card__heading">{{ __('legal.privacy-policy.overview.heading') }}</h3>
 
                 <h4 class="h4 card__heading">{{ __('legal.privacy-policy.general.heading') }}</h4>

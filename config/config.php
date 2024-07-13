@@ -6,4 +6,6 @@ return [
 
     'view' => require_once __DIR__ . '/view.php',
 
+    'content' => require_once __DIR__ . '/content.php',
+
 ];

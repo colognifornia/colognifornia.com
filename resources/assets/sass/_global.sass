@@ -56,6 +56,12 @@
     weight: $main-font--medium
   letter-spacing: 0.15px
 
+.content-flow > *:not(.card__text, .card__heading)
+  margin-bottom: $spacer * 2
+
+  &:is(h2, h3, h4, h5, h6)
+    margin-bottom: $spacer
+
 .icon
   @media screen and (max-width: 600px)
     display: block

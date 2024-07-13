@@ -8,7 +8,9 @@
         "php-di/slim-bridge": "^3.0",
         "slim/twig-view": "^3.0.0",
         "symfony/translation": "^4.3",
-        "ext-intl": "*"
+        "ext-intl": "*",
+        "twig/markdown-extra": "^3.10",
+        "league/commonmark": "^2.4"
     },
     "autoload": {
       "psr-4": {

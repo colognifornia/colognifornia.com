@@ -2,7 +2,7 @@
 
 namespace Colognifornia\Web\Views\Twig\Extensions\SymfonyTranslatorTwigExtension\Functions;
 
-use Colognifornia\Web\Views\Twig\Extensions\SymfonyTranslatorTwigExtension\Functions\Contracts\FunctionInterface;
+use Colognifornia\Web\Views\Twig\Extensions\Contracts\FunctionInterface;
 use Symfony\Component\Translation\Translator;
 use Twig\TwigFunction;
 
