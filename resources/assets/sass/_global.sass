@@ -13,44 +13,44 @@
   @media screen and (max-width: 1600px)
     max-width: $site-width--small
 
-.h1, .h2, .h3, .h4, .h5, .h6, a
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, a
   word-wrap: break-word
   word-break: break-word
   hyphens: auto
 
-.h1, .h2, .h3, .h4, .h5, .h6
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
   text-shadow: $text-shadow
 
-.h1, .h2
+.h1, .h2, h1, h2
   font-weight: $main-font--light
 
-.h1
+.h1, h1
   font-size: 4.8rem
   letter-spacing: -1.5px
 
-.h2
+.h2, h2
   font-size: 3rem
   letter-spacing: -0.5px
 
-.h3, .h4, .h5
+.h3, .h4, .h5, h3, h4, h5
   font-weight: $main-font--regular
 
-.h3
+.h3, h3
   font:
     size: 2.4rem
   letter-spacing: 0
 
-.h4
+.h4, h4
   font:
     size: 1.7rem
   letter-spacing: 0.25px
 
-.h5
+.h5, h5
   font:
     size: 1.2rem
   letter-spacing: 0
 
-.h6
+.h6, h6
   font:
     size: 1rem
     weight: $main-font--medium
@@ -59,8 +59,14 @@
 .content-flow > *:not(.card__text, .card__heading)
   margin-bottom: $spacer * 2
 
+  &:last-child
+      margin-bottom: 0
+
   &:is(h2, h3, h4, h5, h6)
     margin-bottom: $spacer
+
+    &:last-child
+      margin-bottom: 0
 
 .icon
   @media screen and (max-width: 600px)
