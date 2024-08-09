@@ -45,7 +45,7 @@ Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren
 Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
 
 Wir setzen folgende(n) Hoster ein:<br>
-- Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Ireland
+- Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Irland
 - netcup GmbH, Daimlerstr. 25, 76185 Karlsruhe, Deutschland
 
 Serverstandort(e):
@@ -76,6 +76,50 @@ Serverstandort(e): Nürnberg, Deutschland
 
 Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
 
+### Externe Kommunikation über E-Mail
+
+Anfragen per E-Mail, wie auch unter dem Abschnitt "Anfrage per E-Mail oder Telefon" dieser Datenschutzerklärung beschrieben, werden durch (einen) externe(n) Dienstleister abgewickelt. Die in diesen Anfragen enthaltenen persönlichen Daten, insbesondere Ihre E-Mail-Adresse, werden auf den Servern des bzw. der externen Dienstleister(s) verarbeitet und gespeichert.
+
+Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) und/oder auf unseren berechtigten Interessen (Art. 6 Abs. 1 lit. f DSGVO), da wir ein berechtigtes Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen haben.
+
+Unser(e) Dienstleister wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
+
+Wir setzen folgende(n) Dienstleister ein:
+- Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Irland
+- netcup GmbH, Daimlerstr. 25, 76185 Karlsruhe, Deutschland
+
+Serverstandort(e):
+- Google Cloud: nicht bekannt
+- Netcup: Nürnberg, Deutschland
+
+#### Auftragsverarbeitung
+
+Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung der oben genannten Dienste geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
+
+Der Auftragsverarbeitungsvertrag für die Google Cloud bzw. Google Workspace kann unter folgender Adresse abgerufen werden:<br>
+[https://admin.google.com/terms/apps/8/2/en/dpa_terms.html](https://admin.google.com/terms/apps/8/2/en/dpa_terms.html)
+
+### Externe Kundendatenverwaltung und Buchführung
+
+Kunden- sowie Vertragsdaten, wie auch unter dem Abschnitt "Verarbeiten von Kunden- und Vertragsdaten" dieser Datenschutzerklärung beschrieben, werden durch (einen) externe(n) Dienstleister verarbeitet und gespeichert. So werden beispielsweise Ihre Kontaktdaten wie Name, Anschrift, E-Mail-Adresse, Telefonnummer, usw. auf den Servern des bzw. der externen Dienstleister(s) verarbeitet und gespeichert. Das Gleiche gilt für Vertrags- und Rechnungsdaten oder auch Daten zum Zahlungsverhalten.
+
+Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, da die Verarbeitung zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. Gleichzeitig dient die Verarbeitung der Erfüllung rechtlicher Verpflichtungen des Verantwortlichen in Bezug auf handels- und steuerrechtliche Vorschriften zur Speicherung von Vertragsdaten (Art. 6 Abs. 1 lit. c DSGVO). Des Weiteren hat der Verantwortliche nach Art. 6 Abs. 1 lit. f DSGVO ein berechtigtes Interesse an einer effizienten Auftrags- bzw. Vertragsabwicklung mit seinen Kunden.
+
+Unser(e) Dienstleister wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
+
+Wir setzen folgende(n) Dienstleister ein:<br>
+Haufe Lexware GmbH & Co. KG, Munzinger Straße 9, 79111 Freiburg, Deutschland
+
+Serverstandort(e):
+Großraum Frankfurt am Main, Deutschland
+
+#### Auftragsverarbeitung
+
+Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung der oben genannten Dienste geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
+
+Der Auftragsverarbeitungsvertrag für Lexoffice kann unter folgender Adresse abgerufen werden:<br>
+[https://www.lexoffice.de/auftragsverarbeitung/](https://www.lexoffice.de/auftragsverarbeitung/)
+
 ### Sonstige externe Datenverarbeitung
 
 Für alle anderen Anwendungen der Datenübertragung und externen Verarbeitung, die in dieser Datenschutzerklärung beschrieben werden, gelten die folgenden Informationen, soweit nicht anders angegeben:
@@ -85,7 +129,7 @@ Die externe Datenverarbeitung erfolgt zum Zwecke der Vertragserfüllung gegenüb
 Unser(e) Dienstleister wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
 
 Wir setzen folgende(n) Dienstleister ein:<br>
-Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Ireland
+Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Irland
 
 Serverstandort(e): Niederlande
 

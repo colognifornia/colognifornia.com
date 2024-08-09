@@ -2,8 +2,6 @@
 
 namespace Colognifornia\Web\Support\Content;
 
-use Colognifornia\Web\Config\Config;
-
 /**
  * Class ContentFileReader
  *
