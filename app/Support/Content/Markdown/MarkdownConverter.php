@@ -36,7 +36,7 @@ class MarkdownConverter implements MarkdownInterface
         ],
         'autolink' => [
           'allowed_protocols' => ['https'],
-          'default_protocols' => 'https',
+          'default_protocol' => 'https',
         ]
       ]);
 
@@ -59,5 +59,4 @@ class MarkdownConverter implements MarkdownInterface
   {
     return $this->converter->convert($body);
   }
-
 }
