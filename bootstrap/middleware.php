@@ -25,13 +25,15 @@ $app->add(new DetectAndSetUserLanguage($container->get(Translator::class), $cont
 
 $errorMiddleware = $app->addErrorMiddleware($container->get(Config::class)->get('app.debug'), true, true);
 
-// Error Handlers
-$errorMiddleware->setErrorHandler(HttpNotFoundException::class, function (Request $request) use ($container) {
-    return (new HttpNotFoundController($container->get(Twig::class), $container->get(Config::class)))
-        ->index($request, (new Response())->withStatus(404));
-});
+// Error Handlers for production
+if (!$container->get(Config::class)->get('app.debug')) {
+    $errorMiddleware->setErrorHandler(HttpNotFoundException::class, function (Request $request) use ($container) {
+        return (new HttpNotFoundController($container->get(Twig::class), $container->get(Config::class)))
+            ->index($request, (new Response())->withStatus(404));
+    });
 
-$errorMiddleware->setDefaultErrorHandler(function (Request $request) use ($container) {
-    return (new HttpInternalServerErrorController($container->get(Twig::class), $container->get(Config::class)))
-        ->index($request, (new Response())->withStatus(500));
-});
+    $errorMiddleware->setDefaultErrorHandler(function (Request $request) use ($container) {
+        return (new HttpInternalServerErrorController($container->get(Twig::class), $container->get(Config::class)))
+            ->index($request, (new Response())->withStatus(500));
+    });
+}    

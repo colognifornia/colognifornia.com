@@ -2,7 +2,7 @@
 
 return [
 
-    'base_url' => getenv('GOOGLE_CLOUD_PROJECT') ? 'https://colognifornia.com' : 'http://localhost:8000',
+    'base_url' => getenv('GOOGLE_CLOUD_PROJECT') ? 'https://colognifornia.com' : 'https://colognifornia.test',
 
     'debug' => getenv('GOOGLE_CLOUD_PROJECT') ? false : true,
 
