@@ -45,7 +45,7 @@ Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren
 Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
 
 Wir setzen folgende(n) Hoster ein:<br>
-- Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Irland
+- Google Cloud EMEA Limited, 70 Sir John Rogerson's Quay, Dublin 2, Irland
 - netcup GmbH, Daimlerstr. 25, 76185 Karlsruhe, Deutschland
 
 Serverstandort(e):
@@ -85,7 +85,7 @@ Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSG
 Unser(e) Dienstleister wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
 
 Wir setzen folgende(n) Dienstleister ein:
-- Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Irland
+- Google Cloud EMEA Limited, 70 Sir John Rogerson's Quay, Dublin 2, Irland
 - netcup GmbH, Daimlerstr. 25, 76185 Karlsruhe, Deutschland
 
 Serverstandort(e):
@@ -129,7 +129,7 @@ Die externe Datenverarbeitung erfolgt zum Zwecke der Vertragserfüllung gegenüb
 Unser(e) Dienstleister wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
 
 Wir setzen folgende(n) Dienstleister ein:<br>
-Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Irland
+Google Cloud EMEA Limited, 70 Sir John Rogerson's Quay, Dublin 2, Irland
 
 Serverstandort(e): Niederlande
 
@@ -152,7 +152,7 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kom
 
 ### Hinweis zur verantwortlichen Stelle
 
-Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
+Die verantwortliche Stelle für die Datenverarbeitung auf unseren Websites ist:
 
 Jasper Raddatz<br>
 Colognifornia<br>
@@ -169,7 +169,7 @@ Verantwortliche Stelle ist die natürliche oder juristische Person, die allein o
 
 Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z. B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.
 
-### Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website
+### Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf unseren Websites
 
 Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere Datenkategorien nach Art. 9 Abs. 1 DSGVO verarbeitet werden. Im Falle einer ausdrücklichen Einwilligung in die Übertragung personenbezogener Daten in Drittstaaten erfolgt die Datenverarbeitung außerdem auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO. Sofern Sie in die Speicherung von Cookies oder in den Zugriff auf Informationen in Ihr Endgerät (z. B. via Device-Fingerprinting) eingewilligt haben, erfolgt die Datenverarbeitung zusätzlich auf Grundlage von § 25 Abs. 1 TDDDG. Die Einwilligung ist jederzeit widerrufbar. Sind Ihre Daten zur Vertragserfüllung oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage des Art. 6 Abs. 1 lit. b DSGVO. Des Weiteren verarbeiten wir Ihre Daten, sofern diese zur Erfüllung einer rechtlichen Verpflichtung erforderlich sind auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO. Die Datenverarbeitung kann ferner auf Grundlage unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen. Über die jeweils im Einzelfall einschlägigen Rechtsgrundlagen wird in den folgenden Absätzen dieser Datenschutzerklärung informiert.
 
@@ -238,9 +238,9 @@ Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch notwend
 
 Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs, zur Bereitstellung bestimmter, von Ihnen erwünschter Funktionen (z. B. für die Warenkorbfunktion) oder zur Optimierung der Website (z. B. Cookies zur Messung des Webpublikums) erforderlich sind (notwendige Cookies), werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert, sofern keine andere Rechtsgrundlage angegeben wird. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von notwendigen Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Sofern eine Einwilligung zur Speicherung von Cookies und vergleichbaren Wiedererkennungstechnologien abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage dieser Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG); die Einwilligung ist jederzeit widerrufbar.
 
-Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.
+Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität unserer Websites eingeschränkt sein.
 
-Welche Cookies und Dienste auf dieser Website eingesetzt werden, können Sie dieser Datenschutzerklärung entnehmen.
+Welche Cookies und Dienste auf unseren Websites eingesetzt werden, können Sie dieser Datenschutzerklärung entnehmen.
 
 ### Server-Log-Dateien
 
@@ -274,6 +274,7 @@ Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSG
 Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.
 
 ### Registrierung auf unseren Websites
+
 Sie können sich auf unseren Websites ggf. registrieren, um zusätzliche Funktionen auf der Seite zu nutzen. Die dazu eingegebenen Daten verwenden wir nur zum Zwecke der Nutzung des jeweiligen Angebotes oder Dienstes, für den Sie sich registriert haben. Die bei der Registrierung abgefragten Pflichtangaben müssen vollständig angegeben werden. Anderenfalls werden wir die Registrierung ablehnen.
 
 Für wichtige Änderungen etwa beim Angebotsumfang oder bei technisch notwendigen Änderungen nutzen wir die bei der Registrierung angegebene E-Mail-Adresse, um Sie auf diesem Wege zu informieren.
@@ -401,7 +402,7 @@ Nach Ihrer Austragung aus der Newsletterverteilerliste wird Ihre E-Mail-Adresse 
 
 ### Google reCAPTCHA
 
-Wir nutzen ggf. „Google reCAPTCHA“ (im Folgenden „reCAPTCHA“) auf unseren Websites. Anbieter ist die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland.
+Wir nutzen ggf. "Google reCAPTCHA" (im Folgenden "reCAPTCHA") auf unseren Websites. Anbieter ist die Google Ireland Limited ("Google"), Gordon House, Barrow Street, Dublin 4, Irland.
 
 Mit reCAPTCHA soll überprüft werden, ob die Dateneingabe auf unseren Websites (z. B. in einem Kontaktformular) durch einen Menschen oder durch ein automatisiertes Programm erfolgt. Hierzu analysiert reCAPTCHA das Verhalten des Websitebesuchers anhand verschiedener Merkmale. Diese Analyse beginnt automatisch, sobald der Websitebesucher die Website betritt. Zur Analyse wertet reCAPTCHA verschiedene Informationen aus (z. B. IP-Adresse, Verweildauer des Websitebesuchers auf der Website oder vom Nutzer getätigte Mausbewegungen). Die bei der Analyse erfassten Daten werden an Google weitergeleitet.
 Die reCAPTCHA-Analysen laufen vollständig im Hintergrund. Websitebesucher werden nicht darauf hingewiesen, dass eine Analyse stattfindet.
@@ -458,9 +459,9 @@ Folgende Zahlungsdienste / Zahlungsdienstleister setzen wir im Rahmen unserer We
 Anbieter dieses Zahlungsdienstes ist PayPal (Europe) S.à.r.l. et Cie, S.C.A., 22-24 Boulevard Royal, L-2449 Luxembourg (im Folgenden "PayPal").
 
 Die Datenübertragung in die USA wird auf die Standardvertragsklauseln der EU-Kommission gestützt. Details finden Sie hier:
-[https://www.paypal.com/de/webapps/mpp/ua/pocpsa-full](https://www.paypal.com/de/webapps/mpp/ua/pocpsa-full).
+[https://www.paypal.com/webapps/mpp/ua/pocpsa-full](https://www.paypal.com/webapps/mpp/ua/pocpsa-full).
 
-Details entnehmen Sie der Datenschutzerklärung von PayPal: [https://www.paypal.com/de/webapps/mpp/ua/privacy-full](https://www.paypal.com/de/webapps/mpp/ua/privacy-full).
+Details entnehmen Sie der Datenschutzerklärung von PayPal: [https://www.paypal.com/webapps/mpp/ua/privacy-full](https://www.paypal.com/webapps/mpp/ua/privacy-full).
 
 #### Stripe
 
@@ -469,4 +470,7 @@ Anbieter für Kunden innerhalb der EU ist die Stripe Payments Europe Ltd., 1 Gra
 Das Unternehmen verfügt über eine Zertifizierung nach dem "EU-US Data Privacy Framework" (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie auf folgender Website:<br>
 [https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
 
-Details hierzu können Sie in der Datenschutzerklärung von Stripe unter folgendem Link nachlesen: [https://stripe.com/de/privacy](https://stripe.com/de/privacy).
+Details hierzu können Sie in der Datenschutzerklärung von Stripe unter folgendem Link nachlesen: [https://stripe.com/privacy](https://stripe.com/privacy).
+
+
+<small>Quelle: [e-recht24.de](https://e-recht24.de) (bearbeitet und ergänzt)</small>
