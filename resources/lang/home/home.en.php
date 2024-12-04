@@ -4,14 +4,14 @@ return [
     'sections' => [
         'about' => [
             'heading' => 'Who we are',
-            'text' => 'We are a small company based in Cologne, Germany, focusing on web development and design.',
+            'text' => 'Colognifornia is a small company based in Cologne, Germany, focusing on web development and design.',
         ],
         'services' => [
             'heading' => 'What we do',
             'text' => [
-                'web' => 'Doing web development and design for customers wanting to start or enhance their digital business.',
-                'help' => 'Helping people to inform themselves, learn and grow.',
-                'open-source' => 'Contributing to Open Source in order to drive helpful technology forward.',
+                'web' => 'We offer pragmatic, customized web development and design solutions for customers wanting to start or enhance their digital business. In short: technology that makes sense.',
+                'help' => 'We empower people to inform themselves, learn, and grow.',
+                'open-source' => 'We love Open Source and are committed to drive helpful technology forward.',
             ],
         ],
         'contact' => [
