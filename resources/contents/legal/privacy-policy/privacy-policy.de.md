@@ -242,6 +242,10 @@ Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies i
 
 Welche Cookies und Dienste auf unseren Websites eingesetzt werden, können Sie dieser Datenschutzerklärung entnehmen.
 
+<button class="btn" onclick="klaro.show()">Cookie-Einstellungen öffnen</button>
+
+Cookie-Einwilligung Benutzer-ID: <span id="cookieConsentUserID">Nicht gefunden</span>
+
 ### Server-Log-Dateien
 
 Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log- Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
@@ -383,6 +387,10 @@ Wir haben Matomo so konfiguriert, dass Matomo keine Cookies in Ihrem Browser spe
 #### Hosting
 
 Wir hosten Matomo ausschließlich auf unseren eigenen Servern, sodass alle Analysedaten bei uns verbleiben und nicht weitergegeben werden. Mehr Informationen zu unseren Hostinganbietern finden Sie im Abschnitt "2. Hosting und Datenverarbeitung durch externe Dienstleister" dieser Datenschutzerklärung.
+
+#### Opt-Out
+
+<div id="matomo-opt-out"></div>
 
 ## 6. Newsletter
 

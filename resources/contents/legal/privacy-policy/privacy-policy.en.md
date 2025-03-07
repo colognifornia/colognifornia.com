@@ -251,6 +251,10 @@ You have the option to set up your browser in such a manner that you will be not
 
 Which cookies and services are used on our websites can be found in this privacy policy.
 
+<button class="btn" onclick="klaro.show()">Open Cookie Settings</button>
+
+Cookie-Consent User-ID: <span id="cookieConsentUserID">Not found</span>
+
 ### Server log files
 
 The provider of our websites and its pages automatically collects and stores information in so-called server log files, which your browser communicates to us automatically. The information comprises:
@@ -392,6 +396,10 @@ We have configured Matomo in such a way that Matomo will not store cookies in yo
 #### Hosting
 
 We host Matomo exclusively on our own servers so that all analysis data remains with us and is not passed on. You can find more information on our hosting providers under section "2. Hosting and processing by external service providers" of this Privacy Policy.
+
+#### Opt-out
+
+<div id="matomo-opt-out"></div>
 
 ## 6. Newsletter
 
