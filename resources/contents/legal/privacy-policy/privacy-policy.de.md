@@ -49,7 +49,7 @@ Wir setzen folgende(n) Hoster ein:<br>
 - netcup GmbH, Daimlerstr. 25, 76185 Karlsruhe, Deutschland
 
 Serverstandort(e):
-- Google Cloud: Frankfurt, Deutschland
+- Google Cloud: Frankfurt am Main, Deutschland
 - Netcup: Nürnberg, Deutschland
 
 #### Auftragsverarbeitung
@@ -58,6 +58,11 @@ Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung der oben ge
 
 Der Auftragsverarbeitungsvertrag für die Google Cloud kann unter folgender Adresse abgerufen werden:<br>
 [https://cloud.google.com/terms/data-processing-addendum](https://cloud.google.com/terms/data-processing-addendum)
+
+#### Data Privacy Framework
+
+Unser Hoster Google Cloud verfügt über eine Zertifizierung nach dem "EU-US Data Privacy Framework" (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie auf folgender Website:<br>
+[https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
 
 ### Externes Hosting der Website dev-community.de
 
@@ -99,6 +104,11 @@ Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung der oben ge
 Der Auftragsverarbeitungsvertrag für die Google Cloud bzw. Google Workspace kann unter folgender Adresse abgerufen werden:<br>
 [https://admin.google.com/terms/apps/8/2/en/dpa_terms.html](https://admin.google.com/terms/apps/8/2/en/dpa_terms.html)
 
+#### Data Privacy Framework
+
+Unser Dienstleister Google Cloud bzw. Google Workspace verfügt über eine Zertifizierung nach dem "EU-US Data Privacy Framework" (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie auf folgender Website:<br>
+[https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
+
 ### Externe Kundendatenverwaltung und Buchführung
 
 Kunden- sowie Vertragsdaten, wie auch unter dem Abschnitt "Verarbeiten von Kunden- und Vertragsdaten" dieser Datenschutzerklärung beschrieben, werden durch (einen) externe(n) Dienstleister verarbeitet und gespeichert. So werden beispielsweise Ihre Kontaktdaten wie Name, Anschrift, E-Mail-Adresse, Telefonnummer, usw. auf den Servern des bzw. der externen Dienstleister(s) verarbeitet und gespeichert. Das Gleiche gilt für Vertrags- und Rechnungsdaten oder auch Daten zum Zahlungsverhalten.
@@ -120,6 +130,35 @@ Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung der oben ge
 Der Auftragsverarbeitungsvertrag für Lexoffice kann unter folgender Adresse abgerufen werden:<br>
 [https://www.lexoffice.de/auftragsverarbeitung/](https://www.lexoffice.de/auftragsverarbeitung/)
 
+### Externes Hosting der Web-Schnittstelle consent.colognifornia.com
+
+Diese Web-Schnittstelle (Web-API) wird extern gehostet. Die personenbezogenen Daten, die durch diese Web-Schnittstelle erfasst werden, werden auf den Servern des Hosters / der Hoster gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln.
+
+Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+
+Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
+
+Wir setzen folgende(n) Hoster ein:
+- Render Services, Inc., 525 Brannan Street, Suite 300, San Francisco, CA 94107, USA
+- Neon Inc., Orange Street 209, Wilmington, DE 19801, USA
+
+Serverstandort(e): Frankfurt am Main, Deutschland
+
+#### Auftragsverarbeitung
+
+Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung der oben genannten Dienste geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
+
+Der Auftragsverarbeitungsvertrag für Render kann unter folgender Adresse abgerufen werden:<br>
+[https://render.com/dpa](https://render.com/dpa)
+
+Der Auftragsverarbeitungsvertrag für Neon kann unter folgender Adresse abgerufen werden:<br>
+[https://neon.tech/dpa](https://neon.tech/dpa)
+
+#### Data Privacy Framework
+
+Unsere Hoster Render und Neon verfügen über eine Zertifizierung nach dem "EU-US Data Privacy Framework" (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie auf folgender Website:<br>
+[https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
+
 ### Sonstige externe Datenverarbeitung
 
 Für alle anderen Anwendungen der Datenübertragung und externen Verarbeitung, die in dieser Datenschutzerklärung beschrieben werden, gelten die folgenden Informationen, soweit nicht anders angegeben:
@@ -139,6 +178,11 @@ Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung der oben ge
 
 Der Auftragsverarbeitungsvertrag für die Google Cloud kann unter folgender Adresse abgerufen werden:<br>
 [https://cloud.google.com/terms/data-processing-addendum](https://cloud.google.com/terms/data-processing-addendum)
+
+#### Data Privacy Framework
+
+Unser Dienstleister verfügt über eine Zertifizierung nach dem "EU-US Data Privacy Framework" (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie auf folgender Website:<br>
+[https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
 
 ## 3. Allgemeine Hinweise und Pflichtinformationen
 
@@ -244,7 +288,27 @@ Welche Cookies und Dienste auf unseren Websites eingesetzt werden, können Sie d
 
 <button class="btn" onclick="klaro.show()">Cookie-Einstellungen öffnen</button>
 
-Cookie-Einwilligung Benutzer-ID: <span id="cookieConsentUserID">Nicht gefunden</span>
+### Einwilligung mit Klaro und unserer Web-Schnittstelle consent.colognifornia.com
+
+Unsere Websites nutzen die Open Source Consent-Technologie von Klaro, um Ihre Einwilligung zur Speicherung bestimmter Cookies auf Ihrem Endgerät oder zum Einsatz bestimmter Technologien einzuholen und diese datenschutzkonform zu dokumentieren.
+
+Klaro ist in unsere Website(s) integriert und wird in Ihrem Browser ausgeführt, ohne dass eine Verbindung zu den Servern des Anbieters von Klaro hergestellt wird.
+
+Wenn Sie eine Einwilligung erteilen bzw. widerrufen, werden folgende Daten zur Dokumentation Ihrer Einwilligung an eine von uns entwickelte Web-Schnittstelle (Web-API) unter der Domain consent.colognifornia.com übertragen (zum Hosting dieser Web-Schnittstelle siehe auch unter Punkt "2. Hosting und Datenverarbeitung durch externe Dienstleister" dieser Datenschutzerklärung):
+
+- Ihre Einwilligung(en) bzw. der Widerruf Ihrer Einwilligung(en)
+- Ihre IP-Adresse
+- Informationen über Ihren Browser und Ihr Endgerät (User-Agent)
+- Zeitpunkt Ihrer Einwilligung auf der Website
+- eine ggf. in Ihrem Browser hinterlegte zufällig generierte Benutzer-ID zur Zuordnung Ihrer vergangenen Einwilligungen, wenn Sie bereits Einwilligungen in Ihrem Browser und Endgerät für unsere Website(s) erteilt haben
+
+Klaro sowie unsere Web-Schnittstelle consent.colognifornia.com speichert einen Cookie in Ihrem Browser, um Ihnen die erteilten Einwilligungen bzw. deren Widerruf zuordnen zu können.
+
+Die so erfassten Daten werden gespeichert, bis Sie uns zur Löschung auffordern, den Klaro-Cookie bzw. unseren Consent-Cookie mit Ihrer Benutzer-ID selbst löschen oder der Zweck für die Datenspeicherung entfällt. Zwingende gesetzliche Aufbewahrungspflichten bleiben unberührt.
+
+Der Einsatz von Klaro und unserer Web-Schnittstelle consent.colognifornia.com erfolgt, um die gesetzlich vorgeschriebenen Einwilligungen für den Einsatz von Cookies einzuholen und zu dokumentieren. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. c DSGVO.
+
+Ihre Benutzer-ID zur Cookie-Einwilligung: <span id="cookieConsentUserID">Nicht gefunden</span>
 
 ### Server-Log-Dateien
 
@@ -423,6 +487,36 @@ Weitere Informationen zu Google reCAPTCHA entnehmen Sie den Google-Datenschutzbe
 
 Das Unternehmen verfügt über eine Zertifizierung nach dem "EU-US Data Privacy Framework" (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie auf folgender Website:<br>
 [https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
+
+### Sentry
+
+Wir haben ggf. Sentry auf unseren Websites eingebunden. Anbieter ist die Functional Software Inc., 45 Fremont
+Street, 8th Floor, San Francisco, California 94105, USA (nachfolgend Sentry).
+
+Sentry ist ein Open-Source-Dienst zur Fehlerverfolgung und ermöglicht uns, Fehler und Abstürze an beliebigen Stellen in einer webbasierten Software in Echtzeit zu überwachen und zu beheben.
+
+Die Verwendung von Sentry erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat
+ein berechtigtes Interesse an einer fehlerfreien Funktion der eigenen Website.
+Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf
+Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung
+von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. für Device-Fingerprinting) im Sinne des TDDDG umfasst.
+Die Einwilligung ist jederzeit widerrufbar.
+
+Weitere Details entnehmen Sie der Datenschutzerklärung des Anbieters unter https://sentry.io/privacy/.
+
+Das Unternehmen verfügt über eine Zertifizierung nach dem "EU-US Data Privacy Framework" (DPF).
+Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie auf folgender Website:<br>
+https://www.dataprivacyframework.gov/
+
+#### Auftragsverarbeitung
+
+Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes
+geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der
+gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren
+Weisungen und unter Einhaltung der DSGVO verarbeitet.
+
+Der Auftragsverarbeitungsvertrag für Sentry kann unter folgender Adresse abgerufen werden:<br>
+https://sentry.io/legal/dpa/
 
 ## 8. Online-Marketing und Partnerprogramme
 

@@ -61,6 +61,11 @@ We have concluded a data processing agreement (DPA) for the use of the above-men
 The data processing agreement for Google Cloud can be found at:<br>
 [https://cloud.google.com/terms/data-processing-addendum](https://cloud.google.com/terms/data-processing-addendum)
 
+#### Data Privacy Framework
+
+Our host Google Cloud is certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
+[https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
+
 ### External Hosting of the website dev-community.de
 
 This website is hosted externally. Personal data collected on this website are stored on the servers of the host. These may include, but are not limited to, IP addresses, contact requests, metadata and communications, contract information, contact information, names, web page access and other data generated through a web site.
@@ -102,6 +107,11 @@ We have concluded a data processing agreement (DPA) for the use of the above-men
 The data processing agreement for Google Cloud or rather Google Workspace can be found at:<br>
 [https://admin.google.com/terms/apps/8/2/en/dpa_terms.html](https://admin.google.com/terms/apps/8/2/en/dpa_terms.html)
 
+#### Data Privacy Framework
+
+Our service provider Google Cloud or rather Google Workspace is certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
+[https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
+
 ### External customer data management and accounting
 
 Customer and contract data as also described under the section "Processing of data (customer and contract data)" of this Data Protection Declaration are processed and stored by an external service provider. For example, your contact details such as name, address, e-mail address, telephone number, etc. are stored and processed on the servers of the external service provider. The same applies to contract and invoice data or data on payment behaviour.
@@ -110,10 +120,10 @@ The processing of these data is based on Art. 6 para. 1 lit. b GDPR, since the p
 
 Our service provider will only process your data to the extent necessary to fulfil its performance obligations and to follow our instructions with respect to such data.
 
-We use the following service provider(s):<br>
+We are using the following service provider(s):<br>
 Haufe Lexware GmbH & Co. KG, Munzinger Straße 9, 79111 Freiburg, Germany
 
-Serverstandort(e):
+Server location(s):
 Greater area of Frankfurt am Main, Germany
 
 #### Data processing
@@ -123,6 +133,35 @@ We have concluded a data processing agreement (DPA) for the use of the above-men
 The data processing agreement for Lexoffice can be found at:<br>
 [https://www.lexoffice.de/auftragsverarbeitung/](https://www.lexoffice.de/auftragsverarbeitung/)
 
+### External Hosting of our web service consent.colognifornia.com
+
+This web service (Web API) is hosted externally. Personal data collected by this web service are stored on the servers of the host. These may include, but are not limited to, IP addresses, contact requests, metadata and communications, contract information, contact information, names, web page access and other data generated through a web site.
+
+The external hosting serves the purpose of fulfilling the contract with our potential and existing customers (Art. 6(1)(b) GDPR) and in the interest of secure, fast, and efficient provision of our online services by a professional provider (Art. 6(1)(f) GDPR). If appropriate consent has been obtained, the processing is carried out exclusively on the basis of Art. 6 (1)(a) GDPR and § 25 (1) TDDDG, insofar the consent includes the storage of cookies or the access to information in the user's end device (e.g., device fingerprinting) within the meaning of the TDDDG. This consent can be revoked at any time.
+
+Our host(s) will only process your data to the extent necessary to fulfil its performance obligations and to follow our instructions with respect to such data.
+
+We are using the following host(s):
+- Render Services, Inc., 525 Brannan Street, Suite 300, San Francisco, CA 94107, USA
+- Neon Inc., Orange Street 209, Wilmington, DE 19801, USA
+
+Server location(s): Frankfurt am Main, Germany
+
+#### Data processing
+
+We have concluded a data processing agreement (DPA) for the use of the above-mentioned services. This is a contract mandated by data privacy laws that guarantees that they process personal data of our website visitors only based on our instructions and in compliance with the GDPR.
+
+The data processing agreement for Render can be found at:<br>
+[https://render.com/dpa](https://render.com/dpa)
+
+The data processing agreement for Neon can be found at:<br>
+[https://neon.tech/dpa](https://neon.tech/dpa)
+
+#### Data Privacy Framework
+
+Our hosts Render and Neon are certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
+[https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
+
 ### Other external data processing
 
 For any other applications of data transmission and external processing, which are described in this privacy policy, the following information applies as not otherwise noted:
@@ -131,7 +170,7 @@ The external service provider is used for the purpose of fulfilling the contract
 
 Our service provider will only process your data to the extent necessary to fulfil its performance obligations and to follow our instructions with respect to such data.
 
-We use the following service provider(s):<br>
+We are using the following service provider(s):<br>
 Google Cloud EMEA Limited, 70 Sir John Rogerson's Quay, Dublin 2, Ireland
 
 Server location(s): The Netherlands
@@ -142,6 +181,11 @@ We have concluded a data processing agreement (DPA) for the use of the above-men
 
 The data processing agreement for Google Cloud can be found at:<br>
 [https://cloud.google.com/terms/data-processing-addendum](https://cloud.google.com/terms/data-processing-addendum)
+
+#### Data Privacy Framework
+
+Our service provider is certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
+[https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
 
 ## 3. General information and mandatory information
 
@@ -253,7 +297,27 @@ Which cookies and services are used on our websites can be found in this privacy
 
 <button class="btn" onclick="klaro.show()">Open Cookie Settings</button>
 
-Cookie-Consent User-ID: <span id="cookieConsentUserID">Not found</span>
+### Consent with Klaro and our web service consent.colognifornia.com
+
+Our websites use the open-source consent technology from Klaro to obtain your consent to store certain cookies on your device or for the use of certain technologies and to document this consent in a manner compliant with data protection regulations.
+
+Klaro is integrated into our website(s) and runs in your browser without establishing a connection to the servers of the provider of Klaro.
+
+If you grant or revoke your consent, the following data will be transmitted to a web service (Web API) developed by us under the domain consent.colognifornia.com for the documentation of your consent (for the hosting of this web service, please also refer to section "2. Hosting and processing by external service providers" of this privacy policy):
+
+- Your consent(s) or the revocation of your consent(s)
+- Your IP address
+- Information about your browser and your device (user agent)
+- Time of your consent on the website
+- A randomly generated User-ID possibly stored in your browser to be able to allocate past consents to you if you have already given consent in your browser and device for our website(s)
+
+Klaro and our web service stores a cookie in your browser in order to be able to allocate the consents granted to you or their revocation.
+
+The data collected in this way is stored until you request us to delete it, delete the Klaro cookie or our consent cookie with your User-ID yourself, or until the purpose for storing the data no longer applies. Mandatory legal storage obligations remain unaffected.  
+
+The use of Klaro and our web service consent.colognifornia.com is carried out to obtain and document the legally required consents for the use of cookies. The legal basis for this is Art. 6(1)(c) GDPR.
+
+Your User-ID for Cookie Consent: <span id="cookieConsentUserID">Not found</span>
 
 ### Server log files
 
@@ -338,7 +402,7 @@ In general, this involves the following data:
 
 The data processing associated with GitHub's registration is based on our legitimate interest in making the registration process as simple as possible for our users (Art. 6(1)(f) GDPR). Since the use of the registration function is voluntary and the users themselves can decide on the respective access options, no conflicting predominant rights of the data subjects are apparent.
 
-The company is certified in accordance with the “EU-US Data Privacy Framework” (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
+The company is certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
 [https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
 
 For more information, please consult the GitHub Terms of Service and the GitHub Data Privacy Policies. You can find them here:<br>
@@ -431,8 +495,38 @@ For more information about Google reCAPTCHA please refer to the Google Data Priv
 [https://policies.google.com/privacy](https://policies.google.com/privacy) and
 [https://policies.google.com/terms](https://policies.google.com/terms).
 
-The company is certified in accordance with the “EU-US Data Privacy Framework” (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
+The company is certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
 [https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
+
+### Sentry
+
+We may have integrated Sentry on our websites. The provider is Functional Software Inc., 45 Fremont Street, 8th
+Floor, San Francisco, California 94105, USA.
+
+Sentry is an open-source bug tracking service that allows us to monitor and fix bugs and crashes anywhere in
+a web-based software in real time.
+
+Sentry is used on the basis of Art. 6 (1)(f) GDPR. The website operator has a legitimate interest in the error-
+free functioning of its own website.
+If appropriate consent has been obtained, the processing is carried out exclusively on the basis of Art. 6(1)(a)
+GDPR and § 25 (1) TDDDG, insofar the consent includes the storage of cookies or the access to information
+in the user's end device (e.g., device fingerprinting) within the meaning of the TDDDG. This consent can be
+revoked at any time.
+
+For more details, please refer to the provider's privacy policy: https://sentry.io/privacy/.
+
+The company is certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an
+agreement between the European Union and the US, which is intended to ensure compliance with European
+data protection standards for data processing in the US. Every company certified under the DPF is obliged to
+comply with these data protection standards. For further information, please visit the following website:<br>
+https://www.dataprivacyframework.gov/
+
+#### Data processing
+
+We have concluded a data processing agreement (DPA) for the use of the above-mentioned services. This is a contract mandated by data privacy laws that guarantees that they process personal data of our website visitors only based on our instructions and in compliance with the GDPR.
+
+The data processing agreement for Sentry can be found at:<br>
+https://sentry.io/legal/dpa/
 
 ## 8. Online marketing and partner programs
 
@@ -487,7 +581,7 @@ Details can be found in PayPal's privacy policy:: [https://www.paypal.com/webapp
 
 The provider for customers within the EU is Stripe Payments Europe, Ltd,1 Grand Canal Street Lower, Grand Canal Dock, Dublin, Ireland (hereinafter "Stripe").
 
-The company is certified in accordance with the “EU-US Data Privacy Framework” (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
+The company is certified in accordance with the "EU-US Data Privacy Framework" (DPF). The DPF is an agreement between the European Union and the US, which is intended to ensure compliance with European data protection standards for data processing in the US. Every company certified under the DPF is obliged to comply with these data protection standards. For further information, please visit the following website:<br>
 [https://www.dataprivacyframework.gov/](https://www.dataprivacyframework.gov/)
 
 Details can be found in Stripe's Privacy Policy at the following link: [https://stripe.com/privacy](https://stripe.com/privacy).
