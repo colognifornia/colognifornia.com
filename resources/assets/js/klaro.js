@@ -1,3 +1,5 @@
+const domain = window.location.hostname;
+
 const klaroConfig = {
   version: 1,
 
@@ -53,9 +55,9 @@ const klaroConfig = {
       purposes: ['analytics'],
 
       cookies: [
-        [/^_pk_.*$/, '/', 'colognifornia.test'],
-        [/^_mtm_.*$/, '/', 'colognifornia.test'],
-        [/^MATOMO.*$/, '/', 'colognifornia.test'],
+        [/^_pk_.*$/, '/', domain],
+        [/^_mtm_.*$/, '/', domain],
+        [/^MATOMO.*$/, '/', domain],
       ],
 
       callback: function(consent, service) {
@@ -84,8 +86,6 @@ window.klaro = klaro;
 klaro.setup(klaroConfig);
 
 const manager = klaro.getManager(klaroConfig);
-
-const domain = window.location.hostname;
 
 async function logConsent(consents, config) {
     return fetch('https://consent.colognifornia.com/logConsent', {
