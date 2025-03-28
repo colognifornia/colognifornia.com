@@ -9,6 +9,10 @@ handlers:
   static_dir: public/assets/css
   expiration: '30d'
 
+- url: /assets/js
+  static_dir: public/assets/js
+  expiration: '30d'
+
 - url: /assets/fonts
   static_dir: public/assets/fonts
 
