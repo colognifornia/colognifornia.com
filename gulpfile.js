@@ -64,7 +64,7 @@ gulp.task('js', () => {
         .pipe(babel({
             presets: [ '@babel/env' ]
         }))
-        .pipe(concat('all.js'))
+        .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(dist_assets_folder + 'js'));
