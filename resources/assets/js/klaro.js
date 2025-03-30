@@ -141,3 +141,16 @@ manager.watch({
   }
 })
 
+new IntersectionObserver((entries) => {
+    const klaroCookieBanner = document.getElementById('klaro-cookie-notice');
+    if (!klaroCookieBanner || !entries || !entries[0]) return;
+
+    // if footer is in view, make sure klaro cookie banner does not overlap with the footer
+    if (entries[0].isIntersecting) {
+        klaroCookieBanner.style.position = 'relative';
+    } else {
+        klaroCookieBanner.style.position = 'fixed';
+    }
+}, {
+    threshold: 0.5
+}).observe(document.querySelector('.footer'));
