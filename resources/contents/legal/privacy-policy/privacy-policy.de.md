@@ -204,7 +204,7 @@ Salzburger Weg 47<br>
 50858 Köln<br>
 Deutschland
 
-Telefon: [+49 (0) 1573 84 08 326](tel:+4915738408326)<br>
+Telefon: [+49 (0) 221 25 98 93 10](tel:+4922125989310)<br>
 E-Mail: [privacy@colognifornia.com](mailto:privacy@colognifornia.com)
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.

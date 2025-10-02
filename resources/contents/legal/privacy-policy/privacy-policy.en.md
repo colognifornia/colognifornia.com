@@ -207,7 +207,7 @@ Salzburger Weg 47<br>
 50858 Köln<br>
 Germany
 
-Phone: [+49 (0) 1573 84 08 326](tel:+4915738408326)<br>
+Phone: [+49 (0) 221 25 98 93 10](tel:+4922125989310)<br>
 Email: [privacy@colognifornia.com](mailto:privacy@colognifornia.com)
 
 The controller is the natural person or legal entity that single-handedly or jointly with others makes decisions as to the purposes of and resources for the processing of personal data (e.g., names, e-mail addresses, etc.).

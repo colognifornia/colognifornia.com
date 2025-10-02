@@ -10,7 +10,7 @@ Germany
 
 <i class="icon fas fa-envelope"></i> Email: hello@colognifornia.com
 
-<i class="icon fas fa-phone"></i> Phone: [+49 (0) 1573 84 08 326](tel:+4915738408326) <sup>*</sup>
+<i class="icon fas fa-phone"></i> Phone: [+49 (0) 221 25 98 93 10](tel:+4922125989310) <sup>*</sup>
 
 <i class="fas fa-desktop"></i> Web: https://colognifornia.com
 
@@ -25,23 +25,12 @@ Germany
 Sales tax identification number according to § 27 a of the Sales Tax Law:<br>
 DE325678142
 
-### Business Registration
-
-The business registration according to § 15 Abs. 1 GewO was granted on 08/06/2019 by the "Amt für öffentliche Ordnung" ("Gewerbeabteilung") of the City of Cologne ("Stadt Köln").
-
 ### Editorially responsible
 
 Jasper Raddatz<br>
 Salzburger Weg 47<br>
 50858 Köln<br>
 Germany
-
-## EU dispute resolution
-
-The European Commission provides a platform for online dispute resolution (ODR):
-https://ec.europa.eu/consumers/odr.
-
-Our email address can be found above in the legal notice.
 
 ## Consumer dispute resolution/universal arbitration board
 
@@ -60,7 +49,7 @@ You can reach our central contact point for users and authorities in accordance 
 
 <i class="icon fas fa-envelope"></i> Email: dsa@colognifornia.com
 
-<i class="icon fas fa-phone"></i> Phone: [+49 (0) 1573 84 08 326](tel:+4915738408326)
+<i class="icon fas fa-phone"></i> Phone: [+49 (0) 221 25 98 93 10](tel:+4922125989310)
 
 The languages available for contact are: German, English.
 
